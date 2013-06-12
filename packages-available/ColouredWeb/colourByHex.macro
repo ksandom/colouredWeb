@@ -1,0 +1,29 @@
+# Generate a pallete based on an RGB hex input like you use on web pages. eg ffffff ~ colouredweb,coloredweb,hex
+
+colouredWebLoad
+
+hexToInts Tmp,hexInput,2,~!Global,colourByHex!~
+
+retrieveResults ColouredWeb,shades
+loop
+	multiplyColour Tmp,colorShade,~!Result,line!~,~!Tmp,hexInput,0!~,~!Tmp,hexInput,1!~,~!Tmp,hexInput,2!~
+	debug 2,colourByHex: ~!Global,colourByHex!~ * ~!Result,line!~ = ~!Tmp,colorShade!~
+	setNested ColouredWeb,pallete,~!Global,colourByHex!~-~!Result,line!~,~!Tmp,colorShade!~
+
+
+# * window text: #00C0C0
+# * window background: #000000
+# * non-write background: #001010
+# * medium background: #007070
+
+setNested ColouredWeb,currentTheme,windowText,#~!ColouredWeb,pallete,~!Global,colourByHex!~-1!~
+setNested ColouredWeb,currentTheme,windowBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-0!~
+setNested ColouredWeb,currentTheme,nonWriteBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-0.1!~
+setNested ColouredWeb,currentTheme,mediumBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-0.5!~
+
+unset Tmp,colorShade
+getCategory ColouredWeb
+
+templateOut cwGeneric
+
+# .config/google-chrome/Default/User StyleSheets/Custom.css

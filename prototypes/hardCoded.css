@@ -395,6 +395,29 @@
 	color: #00C0C0 !important;
 }
 
+.gbgt.gbes { /* Google top toolbar - share (outside) */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: #00C0C0 !important;
+}
+
+.gbgs3 { /* Google top toolbar - share (inside) */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: #00C0C0 !important;
+}
+
+.gbg1t { /* Google top toolbar - notifications */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: #00C0C0 !important;
+}
+
+.gbgt.gbg4p.gbes { /* Google top toolbar - avatar */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: #00C0C0 !important;
+}
 
 #gbqlt { /* Company logo */
 	background-image: none !important;
@@ -1154,6 +1177,13 @@ fieldset { /* Prelude: information page */
 
 
 /* Zabix */
+.hosts { /* Zabbix: Hosts background area */
+	background-color: #00C0C0 !important;
+	color: black !important;
+	
+	border-color: #007070 !important;
+}
+
 .box_on { /* Zabbix: Graph overlay */
 	background-color: none !important;
 	color: #00C0C0 !important;
@@ -1196,6 +1226,12 @@ fieldset { /* Prelude: information page */
 	
 	border-color: #007070 !important;
 }
+
+
+
+
+
+
 
 
 /* Generic */
@@ -1250,6 +1286,19 @@ fieldset { /* Prelude: information page */
 /* Jira */
 .project-item { /* content area. Generic? */
 	background-color: #001010 !important;
+	background-image: none !important;
+	color: #00C0C0 !important;
+}
+
+
+
+
+
+
+
+/* Zend */
+.classname { /* Zend:  */
+	background-color: black !important;
 	background-image: none !important;
 	color: #00C0C0 !important;
 }

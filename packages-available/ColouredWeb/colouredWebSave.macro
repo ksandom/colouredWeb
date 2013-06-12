@@ -1,0 +1,6 @@
+# Save ColouredWeb ~ colouredweb,save,hidden
+
+debug 2,colouredWebSave: Saving ColouredWeb.
+saveStoreToData ColouredWeb
+
+getCategory ColouredWeb

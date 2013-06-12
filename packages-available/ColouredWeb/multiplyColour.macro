@@ -1,0 +1,11 @@
+# Multiply a colour by a decimal factor between 0 and 1. Octects should be betwen 0 and 255. --multiplyColour=Category,detinationName,factor,R,G,B ~ colouredweb,multiply
+
+basicMaths Tmp,R,~!Global,multiplyColour-2!~,*,~!Global,multiplyColour-3!~
+basicMaths Tmp,G,~!Global,multiplyColour-2!~,*,~!Global,multiplyColour-4!~
+basicMaths Tmp,B,~!Global,multiplyColour-2!~,*,~!Global,multiplyColour-5!~
+
+intsToHex ~!Global,multiplyColour-0!~,~!Global,multiplyColour-1!~,2,~!Tmp,R!~,~!Tmp,G!~,~!Tmp,B!~
+
+unset Tmp,R
+unset Tmp,G
+unset Tmp,B

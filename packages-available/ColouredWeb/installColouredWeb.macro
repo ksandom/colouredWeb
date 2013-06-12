@@ -1,0 +1,10 @@
+# Install all the defaults for colouredWeb ~ install
+#onDefine registerForEvent Install,general,installColouredWeb
+
+debug 1,Installing shades
+addShade 1
+addShade 0.8
+addShade 0.5
+addShade 0.1
+addShade 0
+

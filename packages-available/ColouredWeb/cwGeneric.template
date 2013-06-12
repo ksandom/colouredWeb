@@ -1,0 +1,1491 @@
+/*
+ * window text: ~!ColouredWeb,currentTheme,windowText!~
+ * window background: ~!ColouredWeb,currentTheme,windowBackground!~
+ * non-write background: ~!ColouredWeb,currentTheme,nonWriteBackground!~
+ * medium background: ~!ColouredWeb,currentTheme,mediumBackground!~
+ */
+
+.Bu { /* Gmail: Email view */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.G3.G2 { /* Gmail: Email view */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.ajz { /* Gmail: Email view */
+	opacity: 0.2;
+}
+
+.im { /* Gmail: Email quoted area view */
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+
+.hP { /* Gmail: Title */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: #00FFFF !important;
+}
+
+.gD { /* Gmail: Adressee */
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.g2 { /* Gmail: Extra Adressees */
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.go { /* Gmail: Extra Adressees */
+	color: #005050 !important;
+}
+
+.hb { /* Gmail: labels */
+	color: #005050 !important;
+}
+
+.ams { /* Gmail: reply field text (eg Reply, Reply to all, or Forward) */
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.amn { /* Gmail: reply field text Click here to */
+	color: #005050 !important;
+}
+
+
+.J-Ke.n0 { /* Gmail: Folders */
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+.J-J5-Ji { /* Gmail: Generic background for buttons and stuff */
+	opacity: 0.5 !important;
+}
+
+.aC3 { /* Gmail: Uknown big block of white */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+}
+
+.azX { /* Gmail: Uknown big block of white */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+}
+
+.T-I.J-J5-Ji.T-I-Js-IF.aaq.T-I-ax7.L3 { /* Gmail: Reply button */
+	opacity: 1 !important;
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.T-I.J-J5-Ji.T-I-Js-Gs.aap.T-I-awG.T-I-ax7.L3 { /* Gmail: Reply button - options */
+	opacity: 1 !important;
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+.T-I.J-J5-Ji.T-I-KE.L3.T-I-JO { /* Gmail: Compose button */
+	opacity: 1 !important;
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.T-I.J-J5-Ji.T-I-KE.L3.T-I-JO { /* Gmail: Compose button */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.au { /* Gmail: Label/folder */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.av { /* Gmail: Label/folder */
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+}
+
+.akh.J-J5-Ji.J-JN-I.J-JN-I-JO  { /* Gmail: "Mail" title */
+	background-image: none !important;
+	background-color: transparent !important;
+	color: #00FFFF !important;
+}
+
+.nr { /* Gmail: Text entry. Eg subject */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.Am.aO9.Al.editable.LW-avf { /* Gmail: Composer. Message body. */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.Am.Al.editable.LW-avf { /* Gmail: Inline composer. Message body. */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.wG.J-Z-I.J-J5-Ji.T-I-ax7 { /* Gmail: Toolbar button */
+	opacity: 1 !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.wG.J-Z-I { /* Gmail: Toolbar button */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.aDb.J-Z-I.J-J5-Ji.T-I-ax7 { /* Gmail: Toolbar button. Specifically the + */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbqfb  { /* Gmail: Search button. */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+/* .nH.fY */
+.nH.fY { /* Gmail: Tab bar container */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.nH { /* Gmail: Tab bar container */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.f1 { /* Gmail: Available tab */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.fZ { /* Gmail: Current tab */
+	/* TODO 
+	 * debug .v.fZ.f0
+	 * debug foreground */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.nH.r4 { /* Gmail: Settings container */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.f2 { /* Gmail: Settings area */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.dt { /* Gmail: Settings area */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+.qL { /* Gmail: Settings text area */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.cf { /* Gmail: Toolbar Area */
+	background-image: none !important;
+	background-color: transparent !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.J-Z { /* Gmail: Toolbar */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.e4 { /* Gmail: Toolbar selected item*/
+	background-color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.fN { /* Gmail: Composer area */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.Ar.Au { /* Gmail: Composer area surround */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.nH { /* Gmail: Inbox container */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.zA.zE { /* Gmail: Inbox item - unread */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.zA.y0 { /* Gmail: Inbox item - read */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.DVI7hd { /* Gmail: Inbox unread container */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: green !important;
+}
+
+.yP { /* Gmail: Inbox item sender */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.y6 { /* Gmail: Inbox item subject */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.y2 { /* Gmail: Inbox item text preview */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.xY { /* Gmail: Inbox item */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+}
+
+.ajn { /* Gmail: Avatar */
+	/* This is to reduce the glare of unwanted colours. */
+	opacity: 0.3 !important;
+}
+
+.mqDisabled { /* Gmail: A misc background */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.T-I.J-J5-Ji.L3.T-I-JW.T-I-ax7.T-I-JO { /* Gmail: Text entry. Eg subject */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbqfqw { /* Gmail: Search box */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.ata-asE{ /* Gmail: Notification - new email */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: #00FFFF !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbqfif { /* Gmail: Search box contents */
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbes { /* Google top toolbar */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbzt { /* Google top toolbar - inactive item */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbgt.gbes { /* Google top toolbar - share (outside) */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbgs3 { /* Google top toolbar - share (inside) */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbg1t { /* Google top toolbar - notifications */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.gbgt.gbg4p.gbes { /* Google top toolbar - avatar */
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#gbqlt { /* Company logo */
+	background-image: none !important;
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#Email { /* Gmail: Text entry. Eg subject */
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#Password { /* Gmail: Text entry. Eg subject */
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+/* Site: Google calendar */
+.cF { /* Gmail: Email view */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+/* Site: Google forms */
+.ss-form-container { /* Google forms: container */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.ss-top-of-page { /* Google forms: form _____??? */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.ss-container  { /* Google forms: reciept container */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.ss-resp-card  { /* Google forms:  */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+
+
+.markdown-body { /* Github: Markdown background */
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.clearfix.announce.instapaper_body.md { /* Github: markdown Area */
+	background-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	color: black !important;
+}
+
+.name { /* Github: name of an area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.icon { /* Github: content area. Generic? */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.age { /* Github: content area. Generic? */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.message { /* Github: content area. Generic? */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+
+
+.table_row_even { /* Prelude: output */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.table_row_odd { /* Prelude: output */
+	background-color: #002020 !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.filter_popup { /* Prelude: table heading */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-bottom-style: solid !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-width:1px !important;
+}
+
+#menu { /* Prelude: menu area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#timeline { /* Prelude: time filtering */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#message_list_nav { /* Prelude: message navigation */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.message_summary { /* Prelude: information table */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+fieldset { /* Prelude: information page */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.menu_item_inactive { /* Prelude: inactive menuitem */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.menu_item_active { /* Prelude: active menuitem */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: #00FFFF !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.topmenu { /* Prelude: top menu area */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: #00FFFF !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+.topmenu_item_inactive { /* Prelude: inactive menuitem */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.topmenu_item_active { /* Prelude: active menuitem */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: #00FFFF !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#top_view_header { /* Prelude: Top view */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: #00FFFF !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.popup_menu { /* Prelude: Popup menu*/
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: #00FFFF !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+/*Facebook*/
+#leftCol { /* Facebook: content area. Generic? */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+#contentCol { /* Facebook: content area. Generic? */
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#blueBar { /* Facebook: The top bar with logo and menus */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#pageLogo { /* Facebook: Make the logo fit with the color scheme */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.wrap { /* Facebook: Input box */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.item.clearfix { /* Facebook: Menu selected item */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: #00FFFF !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.item.clearfix.sortableItem { /* Facebook: Menu item */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.UFIRow.UFILikeSentence.UFIFirstComponent.UFIUnseenItem { /* Facebook: Likes */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIAddComment.UFILastComponent { /* Facebook: Comment box */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.userContent { /* Facebook: User content */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.shareRedesignText { /* Facebook: User context text which has come in from an external source.*/
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.clearfix.shareRedesignContainer { /* Facebook: User content - external content.*/
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.caption { /* Facebook: User content - external content - caption. */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-style: none !important;
+}
+
+.mts.uiAttachmentDesc.translationEligibleUserAttachmentMessage { /* Facebook: User content - external content - external text */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-style: none !important;
+}
+
+
+.UFIRow { /* Facebook: User content - share.*/
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFILikeSentence.UFIFirstComponent { /* Facebook: Likes */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIPagerRow.UFIFirstCommentComponent { /* Facebook: Hidden comments */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIComment { /* Facebook: First expanded comment */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.UFIReplyList { /* Facebook: Replies*/
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIReplySocialSentenceRow { /* Facebook: Replies*/
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
+
+.rhc.photoUfiContainer.pinnedUfi { /* Facebook: Photo view.*/
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.jewelFlyout.fbJewelFlyout.uiToggleFlyout { /* Facebook: dropdown (eg settings) menu surround */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.uiHeader.uiHeaderBottomBorder.jewelHeader { /* Facebook: dropdown (eg notifications) menu header */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.seeMore { /* Facebook: dropdown (eg notifications) menu footer (see all) */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.navigation { /* Facebook: dropdown menu */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.navSubmenu { /* Facebook: dropdown menu item */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+}
+
+.menuDivider { /* Facebook: dropdown menu horizontal line */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.messagesContent { /* Facebook: dropdown menu item - eg notifications */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.objectListItem { /* Facebook: dropdown menu item - eg messages */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.uiButton { /* Facebook: Button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.fbChatSidebar.fixed_always { /* Facebook: Chat - maximized */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.fbNubButton { /* Facebook: Chat - minimized */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.clearfix.fbNubFlyoutTitlebar { /* Facebook: Chat - Title */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.clearfix.fbNubFlyoutTitlebar { /* Facebook: Chat - Title text */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.fbNubFlyoutBody.scrollable { /* Facebook: Chat - Friends */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.mhs.mbs.pts.fbChatConvItem._50dw.clearfix.small { /* Facebook: Chat - Typing */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color:~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.fbNubFlyoutFooter.hasEmoticonsRight { /* Facebook: Chat - Typing Entry */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+._510g.typing { /* Facebook: Chat - Typing */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+._510f { /* Facebook: Chat - Sent ____ ago */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+/* Facebook stuff for viewing pictures */
+.spotlight { /* Facebook: The actual image. */
+	background-color: blue !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.stage { /* Facebook: Contains the image and the tags */
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	opacity:1 !important;
+}
+
+.fbPhotosPhotoTagboxes.tagContainer { /* Facebook: Tag container. This definitely needs to have no background color. */
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	/* Changing the opacity here completely influences the problem, but at the expense of the tags. I've removed the backgrounds of everything I can find that would be influenced by the opacity of this div, but I must have missed something.
+	
+	
+	An interesting side effect is that it dims the photo in a way that could be useful. Considering this isn't a global thing it probably shouldn't be relied on. But it's interesting to think about. */
+	opacity:0.5 !important;
+}
+
+.tagsWrapper { /* Facebook: Tag ... thing?. This definitely needs to have no background color. */
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.fbPhotosPhotoTagboxBase.tagBox { /* Facebook: Tag ... thing?. This definitely needs to have no background color. */
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.fbPho-toSnowliftFullScreen.fullScreenSwitch  { /* Facebook: Experimentation 1 */
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.stageWrapper.lfloat  { /* Facebook: Experimentation 1 */
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	opacity:1 !important;
+}
+
+._n8._3qx.fbPhotoSnowlift.fbxPhoto.uiLayer.fullScreenAvailable._3qw._1qp5.pagingReady { /* Facebook: Full screen container */
+	background-color: none !important;
+}
+
+._n9 { /* Facebook: Full screen container */
+	background-color: none !important;
+}
+
+
+
+
+
+.page { /* Pagerduty: incident list - container for all the panels */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.content { /* Pagerduty: incident list - container for the main panels */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.section { /* Pagerduty: incident list - container for the main panels */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.page-header { /* Pagerduty: incident list - heading area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+
+.sidebar { /* Pagerduty: incident list - side bar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.fill { /* Pagerduty: incident list - top menu bar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.active { /* Pagerduty: incident list - top menu bar */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.incident-nav { /* Pagerduty: incident list - incident area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.ui-state-default { /* Pagerduty: incident list - table headings */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.condensed-table { /* Pagerduty: incident list - table of incidents */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.ui-toolbar { /* Pagerduty: incident list - table of incidents */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.btn { /* Pagerduty: incident list - button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.paginate_button { /* Pagerduty: incident list - button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.odd { /* Pagerduty: incident list - item - odd */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.even { /* Pagerduty: incident list - item - even */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.dataTables_empty { /* Pagerduty: incident list - table of incidents */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.service { /* Pagerduty: incident list - table of incidents - colum*/
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.incident { /* Pagerduty: incident list - table of incidents- colum */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.time { /* Pagerduty: incident list - table of incidents - colum */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.activity { /* Pagerduty: incident list - table of incidents - colum */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+
+
+
+
+/* Zabix */
+.hosts { /* Zabbix: Hosts background area */
+	background-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	color: black !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.box_on { /* Zabbix: Graph overlay */
+	background-color: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	opacity: 0 !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.information { /* Zabbix: User feedback */
+	background-color: #103310 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.warning { /* Zabbix: User feedback */
+	background-color: #333310 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.average { /* Zabbix: User feedback */
+	background-color: #331010 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.high { /* Zabbix: User feedback */
+	background-color: #661010 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+.disaster { /* Zabbix: User feedback */
+	background-color: #771010 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+
+
+
+
+
+
+
+/* Generic */
+.highlight_disabled { /* highlighted text */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.content { /* content area. Generic? */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+
+/* Onelogin */
+.box_top { /* onelogin: boxed content - top */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+.box_background { /* onelogin: boxed content */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+.box_bottom { /* onelogin: boxed content - bottom */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+.buttonbar { /* onelogin: button bar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+.bodybg { /* onelogin: body background */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+/* Jira */
+.project-item { /* content area. Generic? */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+
+
+/* Zend */
+.classname { /* Zend:  */
+	background-color: black !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+
+
+/* stackoverflow */
+.comment-user.owner { /* stackoverflow: comment owner */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.post-tag { /* stackoverflow: tag */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+}
+
+
+
+
+
+
+
+/* php.net */
+#layout_2 { /* php.net: unclaimed left area */
+	background-image: none !important;
+}
+
+
+/* Generic */
+.main-content { /* Misc */
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+div { /* Pre-formatted text */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+pre { /* Pre-formatted text */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+a  { /* Link */
+	color: #00FFFF !important;
+}
+
+th { /* Table Heading */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: #00FFFF !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+td { /* Table cell */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+h1 { /* Heading 1 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+h2 { /* Heading 2 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important
+}
+
+h3 { /* Heading 3 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+h4 { /* Heading 4 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+h5 { /* Heading 5 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+h6 { /* Heading 6 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+h7 { /* Heading 7 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+h8 { /* Heading 8 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+h9 { /* Heading 9 */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+hr { /* Horizontal line  */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
+
+
+select { /* Form elements: select box */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+textarea { /* Form elements: textarea  */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+input { /* Form elements: textarea  */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+body { /* Default stuff. */
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+html { /* Default stuff. */
+	/* This really surprised me, but it's needed for pagerduty, and perhaps other sites. I would have thought that body should have covered this.
+	 */
+	
+	background-image: none !important;
+	background-color: black !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+p {
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+span {
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+code {
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+blockquote {
+	background-image: none !important;
+	background-color: #002020 !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
