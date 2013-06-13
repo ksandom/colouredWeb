@@ -16,14 +16,22 @@ loop
 # * non-write background: #001010
 # * medium background: #007070
 
-setNested ColouredWeb,currentTheme,windowText,#~!ColouredWeb,pallete,~!Global,colourByHex!~-1!~
-setNested ColouredWeb,currentTheme,windowBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-0!~
-setNested ColouredWeb,currentTheme,nonWriteBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-0.1!~
-setNested ColouredWeb,currentTheme,mediumBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-0.5!~
+if ~!ColouredWeb,mapping,windowText!~,==,,
+	debug 0,colourByHex: mappings not set. Assuming cwBright.
+	cwBright
+
+setNested ColouredWeb,currentTheme,windowText,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,windowText!~!~
+setNested ColouredWeb,currentTheme,windowBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,windowBackground!~!~
+setNested ColouredWeb,currentTheme,nonWriteBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,nonWriteBackground!~!~
+setNested ColouredWeb,currentTheme,mediumBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,mediumBackground!~!~
 
 unset Tmp,colorShade
 getCategory ColouredWeb
 
-templateOut cwGeneric
+# templateOut cwGeneric
+
+null
+template cwGeneric
+debug 0,You will now need to run something like --cwOut to send this to some files.
 
 # .config/google-chrome/Default/User StyleSheets/Custom.css

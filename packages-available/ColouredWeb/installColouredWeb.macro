@@ -3,8 +3,15 @@
 
 debug 1,Installing shades
 addShade 1
+addShade 0.9
 addShade 0.8
+addShade 0.7
+addShade 0.6
 addShade 0.5
+addShade 0.4
+addShade 0.3
+addShade 0.2
 addShade 0.1
 addShade 0
 
+addCWOutput Chrome,~/.config/google-chrome/Default/User StyleSheets/Custom.css

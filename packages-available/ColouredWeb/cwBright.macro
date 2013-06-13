@@ -1,0 +1,8 @@
+# Bright backgrounds similar to normal colour schemes ~ colouredWeb,bright
+
+colouredWebLoad
+
+setNested ColouredWeb,mapping,windowText,0
+setNested ColouredWeb,mapping,windowBackground,1
+setNested ColouredWeb,mapping,nonWriteBackground,0.9
+setNested ColouredWeb,mapping,mediumBackground,0.5

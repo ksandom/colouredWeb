@@ -1,0 +1,6 @@
+# Add a ColouredWeb CSS output. This will be used to deploy the CSS. Generally this should be an absolute path. eg --addCWOutput=chrome,'~/.config/google-chrome/Default/User StyleSheets/Custom.css' ~ colouredweb
+
+colouredWebLoad
+
+debug 2,addCWOutput: ~!Global,addCWOutput-0!~ 
+setNested ColouredWeb,outputs,~!Global,addCWOutput-0!~,~!Global,addCWOutput-1!~
