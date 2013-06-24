@@ -3,6 +3,10 @@
  * window background: ~!ColouredWeb,currentTheme,windowBackground!~
  * non-write background: ~!ColouredWeb,currentTheme,nonWriteBackground!~
  * medium background: ~!ColouredWeb,currentTheme,mediumBackground!~
+ * panel text: ~!ColouredWeb,currentTheme,panelText!~
+ * panel background: ~!ColouredWeb,currentTheme,panelBackground!~
+ * highlight text: ~!ColouredWeb,currentTheme,highlightText!~
+ * highlight background: ~!ColouredWeb,currentTheme,highlightBackground!~
  */
 
 .Bu { /* Gmail: Email view */
@@ -27,11 +31,15 @@
 	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 }
 
+.il { /* Gmail: Search highlighted text */
+	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
+}
 
 .hP { /* Gmail: Title */
 	background-image: none !important;
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .gD { /* Gmail: Adressee */
@@ -131,7 +139,7 @@
 .akh.J-J5-Ji.J-JN-I.J-JN-I-JO  { /* Gmail: "Mail" title */
 	background-image: none !important;
 	background-color: transparent !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .nr { /* Gmail: Text entry. Eg subject */
@@ -268,7 +276,7 @@
 }
 
 .e4 { /* Gmail: Toolbar selected item*/
-	background-color: #00FFFF !important;
+	background-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
@@ -287,6 +295,46 @@
 .nH { /* Gmail: Inbox container */
 	background-image: none !important;
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.yW { /* Gmail: Inbox from field */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.pG { /* Gmail: Inbox important field container*/
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.WA.xY { /* Gmail: Inbox important field container*/
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.pH-A7 { /* Gmail: Inbox important field*/
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.pH { /* Gmail: Inbox important field*/
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.UW { /* Gmail: Inbox important field stray*/
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.T-Jo-auh { /* Gmail: Inbox checked field */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
@@ -372,7 +420,7 @@
 .ata-asE{ /* Gmail: Notification - new email */
 	background-image: none !important;
 	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-style:solid !important;
 	border-width:1px !important;
@@ -385,37 +433,37 @@
 
 .gbes { /* Google top toolbar */
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .gbzt { /* Google top toolbar - inactive item */
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .gbgt.gbes { /* Google top toolbar - share (outside) */
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .gbgs3 { /* Google top toolbar - share (inside) */
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .gbg1t { /* Google top toolbar - notifications */
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .gbgt.gbg4p.gbes { /* Google top toolbar - avatar */
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
@@ -488,6 +536,12 @@
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.normal-comment-header {
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}}
+
 .clearfix.announce.instapaper_body.md { /* Github: markdown Area */
 	background-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	color: black !important;
@@ -530,7 +584,7 @@
 }
 
 .table_row_odd { /* Prelude: output */
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -586,7 +640,7 @@ fieldset { /* Prelude: information page */
 .menu_item_active { /* Prelude: active menuitem */
 	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 	background-image: none !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -594,7 +648,7 @@ fieldset { /* Prelude: information page */
 .topmenu { /* Prelude: top menu area */
 	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 	background-image: none !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -611,7 +665,7 @@ fieldset { /* Prelude: information page */
 .topmenu_item_active { /* Prelude: active menuitem */
 	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 	background-image: none !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -619,7 +673,7 @@ fieldset { /* Prelude: information page */
 #top_view_header { /* Prelude: Top view */
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
 	background-image: none !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -627,7 +681,7 @@ fieldset { /* Prelude: information page */
 .popup_menu { /* Prelude: Popup menu*/
 	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 	background-image: none !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -674,7 +728,7 @@ fieldset { /* Prelude: information page */
 .item.clearfix { /* Facebook: Menu selected item */
 	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 	background-image: none !important;
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -1290,7 +1344,69 @@ fieldset { /* Prelude: information page */
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.toolbar-item { /* buttons on the toolbar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
+
+
+
+
+/* AWS */
+
+#nav-bar { /* navigation bar. At least used in the support center */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#header { /* TODO work out what this is and if it's needed */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+}
+
+.subnav { /* Remove the gray shade under the search box in the support center */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+}
+
+#nav-search-in-content { /* "AWS product information" dropdown in search bar */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#gtl-sign-up { /* Sign up button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.signUpBtn { /* Sign up button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#status { /* Support case status dropdown box */
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important; /* TODO Fix this. It should be a more appropriate code. */
+}
+
+.empty { /* AWS: Table header */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.sortable { /* AWS: Table header */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 
 
@@ -1357,22 +1473,34 @@ pre { /* Pre-formatted text */
 }
 
 a  { /* Link */
-	color: #00FFFF !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
-th { /* Table Heading */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
-	color: #00FFFF !important;
-	
-	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
-}
-
-td { /* Table cell */
+thead { /* Table Heading */
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 }
+
+th { /* Table Heading */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+td { /* Table cell */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important; /* TODO reconsider this. It's bound to be breaking stuff. */
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+tr { /* Table row */
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important; /* TODO Fix this. It should be a more appropriate code. */
+}
+
 
 h1 { /* Heading 1 */
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
@@ -1479,13 +1607,26 @@ span {
 
 code {
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 blockquote {
 	background-image: none !important;
-	background-color: #002020 !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
+
+option {
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+select {
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
 
