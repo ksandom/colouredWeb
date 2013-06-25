@@ -655,6 +655,9 @@
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.modal-backdrop { /* Github: Background shading for when something is in focus */
+	opacity: 0.5 !important;
+}
 
 
 
