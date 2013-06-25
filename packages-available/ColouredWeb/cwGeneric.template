@@ -656,8 +656,29 @@
 }
 
 .modal-backdrop { /* Github: Background shading for when something is in focus */
-	opacity: 0.5 !important;
+	opacity: 0.7 !important;
 }
+
+.select-menu-header { /* Github: Menu header */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.minibutton.select-menu-button.with-gravatar.js-menu-target { /* Github: Company selector */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.repo-list-item.css-truncate { /* Github: repo list item */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
 
 
 
