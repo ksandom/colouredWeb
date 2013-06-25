@@ -437,6 +437,30 @@
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.gbes { /* Google top toolbar */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#gbx1 { /* Google search bar container? */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#gbgs3 { /* Google share button (g+) */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.ab_button { /* Google button. At least used for settings */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
 .gbzt { /* Google top toolbar - inactive item */
 	background-image: none !important;
 	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
@@ -528,8 +552,32 @@
 
 
 
+/* Wikipedia */
+.selected { /* Wikipedia: tab */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
+/* TODO There must be a better way than overriding individual IDs on wikipedia! */
 
+#ca-talk { /* Wikipedia: talk tab */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#ca-edit { /* Wikipedia: talk tab */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#ca-history { /* Wikipedia: talk tab */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 .markdown-body { /* Github: Markdown background */
 	background-color: black !important;
@@ -540,7 +588,7 @@
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
-}}
+}
 
 .clearfix.announce.instapaper_body.md { /* Github: markdown Area */
 	background-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
@@ -571,12 +619,46 @@
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.box-body { /* Guthub: repo list */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.commit-link { /* Github: Highlighted commit link */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.css-truncate.css-truncate-target.branch-link {
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.header.header-logged-in.true {
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.container.clearfix {
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.js-selected-navigation-item  { /* Github: menubar item */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 
 
 
-
-
+/* Prelude */
 .table_row_even { /* Prelude: output */
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
 	background-image: none !important;
@@ -1333,6 +1415,17 @@ fieldset { /* Prelude: information page */
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.submenu { /* onelogin: submenu bar */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.current { /* onelogin: selected tab */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 
 
@@ -1408,8 +1501,43 @@ fieldset { /* Prelude: information page */
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.nav-elt { /* AWS: Top menu bar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
+.nav-menu-separator { /* AWS: Menu bar separator */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
+#nav-shortcutBar { /* AWS: Fills the gap in the menu bar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.tm-both { /* AWS: Container for top menu bar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.grey { /* AWS: use in button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.blue { /* AWS: use in button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 
 /* Zend */
@@ -1458,7 +1586,7 @@ fieldset { /* Prelude: information page */
 }
 
 
-div { /* Pre-formatted text */
+div { /* Div area */
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
@@ -1629,4 +1757,11 @@ select {
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+tt { /* TODO Look this up. I don't know what it is. It's used by the commit link on github */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-style: none !important;
+}
 
