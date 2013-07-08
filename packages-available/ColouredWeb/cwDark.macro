@@ -1,6 +1,6 @@
 # Dark backgrounds inverse to normal colour schemes ~ colouredWeb,bright
 
-colouredWebLoad
+collectionLoad ColouredWeb
 
 setNested ColouredWeb,mapping,windowText,1
 setNested ColouredWeb,mapping,windowBackground,0

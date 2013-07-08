@@ -1,5 +1,0 @@
-# Load ColouredWebInfo ~ colouredweb,load,hidden
-
-registerForEvent Mass,finishGeneral,colouredWebSave
-
-load loadStoreFromData ColouredWeb

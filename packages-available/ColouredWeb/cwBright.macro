@@ -1,6 +1,6 @@
 # Bright backgrounds similar to normal colour schemes ~ colouredWeb,bright
 
-colouredWebLoad
+collectionLoad ColouredWeb
 
 setNested ColouredWeb,mapping,windowText,0
 setNested ColouredWeb,mapping,windowBackground,1

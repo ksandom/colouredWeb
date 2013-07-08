@@ -10,9 +10,10 @@ That's where this project comes in. The idea is to make everything at least usea
 
 # Timeline
 
- * First attempt to make the sites I use frequently useable. Using my colours. - In progress
+ * First attempt to make the sites I use frequently useable. Using my colours. - Done
  * Create github project. - Done
- * Template the CSS file so that other peoples' colours can be used.
+ * Template the CSS file so that other peoples' colours can be used. - Done
+ * Generate common colours.
  * Start accepting user contributions to the template.
  * Create code that can be used on the funnyhacks.com website to allow people to generate their own CSS files simply and easily.
  * Create service that hooks into KDE desktop to dynamically update the CSS file as the colour scheme is changed. (This is a personal itch that I want to scratch, but I don't expect it to be useful to many people.)

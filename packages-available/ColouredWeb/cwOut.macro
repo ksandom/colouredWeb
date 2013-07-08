@@ -1,14 +1,15 @@
 # Send generated output to file. --cwOut[=refine]  ~ colouredWeb
 
-colouredWebLoad
+collectionLoad ColouredWeb
 
-# hmmmmmm, outputs vs template output
-# retrieveResults ColouredWeb,outputs
-# if ~!Global,cwOut!~,!=,,
-# 	refine ~!Global,cwOut!~
+stashResults Tmp,templateValues
+retrieveResults ColouredWeb,outputs
+if ~!Global,cwOut!~,!=,,
+	refine ~!Global,cwOut!~
 
-# loop
+loop
+	retrieveResults Tmp,templateValues
+	debug 1,Outputting CSS for ~!Result,key!~ ~!Result,line!~
+	singleStringNow ~!Result,line!~
 
-set Tmp,home,/home/ksandom
-
-singleStringNow ~!Tmp,home!~/.config/google-chrome/Default/User StyleSheets/Custom.css
+unset Tmp,templateValues

@@ -1,6 +1,5 @@
 # Add a ColouredWeb shade. This will be used to produce different shades of colours when regenerating CSS. --addShade=shade where shade is a decimal between 0 and 1. ~ colouredweb
 
-colouredWebLoad
+collectionLoad ColouredWeb
 
-debug 2,addShade: ~!Global,addShade!~ == ~!Global,addShade-0!~ ??
 setNested ColouredWeb,shades,~!Global,addShade-0!~,~!Global,addShade-0!~

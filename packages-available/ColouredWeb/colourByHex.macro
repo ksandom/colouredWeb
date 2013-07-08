@@ -1,8 +1,11 @@
 # Generate a pallete based on an RGB hex input like you use on web pages. eg ffffff ~ colouredweb,coloredweb,hex
 
-colouredWebLoad
+collectionLoad ColouredWeb
 
 hexToInts Tmp,hexInput,2,~!Global,colourByHex!~
+
+getCategory Tmp
+outNow
 
 retrieveResults ColouredWeb,shades
 loop

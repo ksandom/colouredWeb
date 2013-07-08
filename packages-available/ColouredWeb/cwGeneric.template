@@ -491,10 +491,13 @@
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
-#gbqlt { /* Company logo */
-	background-image: none !important;
+#gbqlt { /* Gmail: Company logo */
 	background-color: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#gbqlt.tbody.tr {
+	background-color: none !important;
 }
 
 #Email { /* Gmail: Text entry. Eg subject */
@@ -1789,3 +1792,6 @@ tt { /* TODO Look this up. I don't know what it is. It's used by the commit link
 	border-style: none !important;
 }
 
+b { /* TODO See if there is a better way. This is to override the google drop down search results that gray out what you've written. It would be a real shame if this has to stay in. */
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
