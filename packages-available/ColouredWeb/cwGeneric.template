@@ -1596,9 +1596,38 @@ fieldset { /* Prelude: information page */
 
 
 
+/* hipchat */
+.atTag { /* hipchat: When someone references someone by name */
+	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+}
 
+.dateDivider { /* hipchat: The gap compacting lots of time */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
+.open { /* hipchat: The context switcher on the left hand side */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
+.top_bar_private { /* hipchat: There is a bar at the top of the page. I don't know what it does. */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 /* php.net */
 #layout_2 { /* php.net: unclaimed left area */
