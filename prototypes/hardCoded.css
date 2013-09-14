@@ -553,6 +553,10 @@
 }
 
 
+.Ya-sc-Mb.ZxHcNb { /* Google hangouts: bottom area */
+	background-color: none !important;
+
+}
 
 
 /* Wikipedia */
@@ -1335,6 +1339,43 @@ fieldset { /* Prelude: information page */
 	border-color: #4C777F !important;
 }
 
+.pd-item-header { /* Pagerduty: area header */
+	background-color: #1E2F33 !important;
+	background-image: none !important;
+	color: #89D6E5 !important;
+	
+	border-color: #89D6E5 !important;
+}
+
+.pd-escalation-policy-tag { /* Pagerduty: a button */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+.action { /* Pagerduty: dropdown item */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+.dropdown-menu { /* Pagerduty: dropdown menu area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+.select2-choice { /* Pagerduty: dropdown intial state */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+.numeric { /* Pagerduty: html dropdown */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
 
 
 
@@ -1458,21 +1499,114 @@ fieldset { /* Prelude: information page */
 
 
 /* Jira */
-.project-item { /* content area. Generic? */
+.project-item { /* jira: content area. Generic? */
 	background-color: #0F1719 !important;
 	background-image: none !important;
 	color: #99EEFF !important;
 }
 
-.toolbar-item { /* buttons on the toolbar */
+.toolbar-item { /* jira: buttons on the toolbar */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+.active { /* jira: selected thing */
+	border-color: #99EEFF !important;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.toolbar-trigger { /* jira: toolbar item */
+	background-color: #1E2F33 !important;
+	background-image: none !important;
+	color: #89D6E5 !important;
+	
+	border-color: #99EEFF !important;
+	border-style: solid;
+}
+
+.tabs.horizontal {
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+	
+	/* TODO Finish this! */
+	
+
+}
+
+.tabwrap>.tabs.horizontal>li.active>a,.tabwrap>.tabs.horizontal>li.active>strong{
 	background-color: #0F1719 !important;
 	background-image: none !important;
 	color: #99EEFF !important;
 }
 
 
+.tabwrap {
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+#all-tabpanel { /* jira: all button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+#comment-tabpanel { /* jira: comment button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+#worklog-tabpanel { /* jira: log button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+#changehistory-tabpanel { /* jira: history button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+#activity-stream-issue-tab { /* jira: acivit button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+#transitions-summary-tabpanel { /* jira: transactions button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
+
+#dvcs-commits-tabpanel { /* jira: commitsmass --today button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+}
 
 
+.aui-button { /* jira: comment button on the details area */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+	
+	border-color: #99EEFF !important;
+}
+
+.ops  { /* jira: dropdown thing */
+	background-color: #0F1719 !important;
+	background-image: none !important;
+	color: #99EEFF !important;
+	
+	border-color: #99EEFF !important;
+}
 
 /* AWS */
 
@@ -1613,10 +1747,26 @@ fieldset { /* Prelude: information page */
 	border-color: #99EEFF !important;
 }
 
-.open { /* hipchat: The context switcher on the left hand side */
-	background-color: #0F1719 !important;
+.tabs.li { /* hipchat: The context switcher on the left hand side */
 	background-image: none !important;
 	color: #99EEFF !important;
+	
+	border-color: #99EEFF !important;
+}
+
+.open { /* hipchat: The context switcher on the left hand side */
+	background-image: none !important;
+	color: #99EEFF !important;
+	
+	border-color: #99EEFF !important;
+	
+	text-overflow: none;
+}
+
+.alert { /* hipchat: The context switcher on the left hand side */
+	background-color: #7ABECC !important;
+	background-image: none !important;
+	color: #000000 !important;
 	
 	border-color: #99EEFF !important;
 }
@@ -1737,6 +1887,13 @@ hr { /* Horizontal line  */
 	background-image: none !important;
 	background-color: #99EEFF !important;
 	color: #000000 !important;
+	
+	border-color: #99EEFF !important;
+}
+
+li {
+	background-image: none !important;
+	color: #99EEFF !important;
 	
 	border-color: #99EEFF !important;
 }

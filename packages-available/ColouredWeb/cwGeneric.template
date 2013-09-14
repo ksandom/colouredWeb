@@ -553,6 +553,10 @@
 }
 
 
+.Ya-sc-Mb.ZxHcNb { /* Google hangouts: bottom area */
+	background-color: none !important;
+
+}
 
 
 /* Wikipedia */
@@ -1335,6 +1339,43 @@ fieldset { /* Prelude: information page */
 	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 }
 
+.pd-item-header { /* Pagerduty: area header */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+}
+
+.pd-escalation-policy-tag { /* Pagerduty: a button */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.action { /* Pagerduty: dropdown item */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.dropdown-menu { /* Pagerduty: dropdown menu area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.select2-choice { /* Pagerduty: dropdown intial state */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.numeric { /* Pagerduty: html dropdown */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 
 
@@ -1458,21 +1499,114 @@ fieldset { /* Prelude: information page */
 
 
 /* Jira */
-.project-item { /* content area. Generic? */
+.project-item { /* jira: content area. Generic? */
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
-.toolbar-item { /* buttons on the toolbar */
+.toolbar-item { /* jira: buttons on the toolbar */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.active { /* jira: selected thing */
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.toolbar-trigger { /* jira: toolbar item */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-style: solid;
+}
+
+.tabs.horizontal {
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	/* TODO Finish this! */
+	
+
+}
+
+.tabwrap>.tabs.horizontal>li.active>a,.tabwrap>.tabs.horizontal>li.active>strong{
 	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 
+.tabwrap {
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#all-tabpanel { /* jira: all button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#comment-tabpanel { /* jira: comment button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#worklog-tabpanel { /* jira: log button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#changehistory-tabpanel { /* jira: history button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#activity-stream-issue-tab { /* jira: acivit button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#transitions-summary-tabpanel { /* jira: transactions button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#dvcs-commits-tabpanel { /* jira: commitsmass --today button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 
+.aui-button { /* jira: comment button on the details area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.ops  { /* jira: dropdown thing */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
 /* AWS */
 
@@ -1613,10 +1747,26 @@ fieldset { /* Prelude: information page */
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
-.open { /* hipchat: The context switcher on the left hand side */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+.tabs.li { /* hipchat: The context switcher on the left hand side */
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.open { /* hipchat: The context switcher on the left hand side */
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	text-overflow: none;
+}
+
+.alert { /* hipchat: The context switcher on the left hand side */
+	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -1737,6 +1887,13 @@ hr { /* Horizontal line  */
 	background-image: none !important;
 	background-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+li {
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
