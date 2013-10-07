@@ -1710,7 +1710,77 @@ fieldset { /* Prelude: information page */
 
 
 
+/* Pingdom */
+#area { /* Pingdom: The main content container */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
 
+#fade { /* Pingdom: Fade area on the bottom */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#content { /* Pingdom: The center container */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#page { /* Pingdom: The main content */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+#footer { /* Pingdom: The main content */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.box { /* Pingdom: Boxed winow area */
+	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.left { /* Pingdom: left option */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+}
+
+.right { /* Pingdom: right option */
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+}
+
+.checked { /* Pingdom: selected option */
+	border-color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+.ui-slider-handle { /* Pingdom: slider */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,mediumText!~ !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
 
 
 /* stackoverflow */
@@ -1732,6 +1802,14 @@ fieldset { /* Prelude: information page */
 
 /* hipchat */
 .atTag { /* hipchat: When someone references someone by name */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	background-image: none !important;
+	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+}
+
+.atTagMe { /* hipchat: When someone references you by name */
 	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
@@ -1980,4 +2058,9 @@ tt { /* TODO Look this up. I don't know what it is. It's used by the commit link
 
 b { /* TODO See if there is a better way. This is to override the google drop down search results that gray out what you've written. It would be a real shame if this has to stay in. */
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+a { /* link */
+	/* TODO This needs to respect the chosen colour scheme */
+	color: #3366ff !important;
 }
