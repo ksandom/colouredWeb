@@ -17,6 +17,7 @@ loop
 # * window text: #00C0C0
 # * window background: #000000
 # * non-write background: #001010
+# * medium text: #00FFFF
 # * medium background: #007070
 # * panel text: #00FFFF
 # * panel background: #002020
@@ -28,6 +29,7 @@ if ~!ColouredWeb,mapping,windowText!~,==,,
 setNested ColouredWeb,currentTheme,windowText,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,windowText!~!~
 setNested ColouredWeb,currentTheme,windowBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,windowBackground!~!~
 setNested ColouredWeb,currentTheme,nonWriteBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,nonWriteBackground!~!~
+setNested ColouredWeb,currentTheme,mediumText,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,mediumText!~!~
 setNested ColouredWeb,currentTheme,mediumBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,mediumBackground!~!~
 setNested ColouredWeb,currentTheme,panelText,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,panelText!~!~
 setNested ColouredWeb,currentTheme,panelBackground,#~!ColouredWeb,pallete,~!Global,colourByHex!~-~!ColouredWeb,mapping,panelBackground!~!~

@@ -5,6 +5,7 @@ collectionLoad ColouredWeb
 setNested ColouredWeb,mapping,windowText,0
 setNested ColouredWeb,mapping,windowBackground,1
 setNested ColouredWeb,mapping,nonWriteBackground,0.9
+setNested ColouredWeb,mapping,mediumText,1
 setNested ColouredWeb,mapping,mediumBackground,0.5
 setNested ColouredWeb,mapping,panelText,0.1
 setNested ColouredWeb,mapping,panelBackground,0.8

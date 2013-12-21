@@ -1,0 +1,1 @@
+{"name":"colouredWeb","colouredWeb":{"name":"colouredWeb","description":"A tool for re-colouring the web using CSS to make it more accessible to people sensitive to colour.","execName":"colouredweb","packages":{"SELF":{"sourceRepo":"colouredWeb","packageRegex":".*"},"BASE":{"sourceRepo":"achel","packageRegex":".*"}}}}

@@ -2,6 +2,7 @@
  * window text: #99EEFF
  * window background: #000000
  * non-write background: #0F1719
+ * medium text: #000000
  * medium background: #4C777F
  * panel text: #89D6E5
  * panel background: #1E2F33
@@ -1230,7 +1231,7 @@ fieldset { /* Prelude: information page */
 .active { /* Pagerduty: incident list - top menu bar */
 	background-color: #4C777F !important;
 	background-image: none !important;
-	color: #4C777F !important;
+	color: #000000 !important;
 	
 	border-color: #4C777F !important;
 }
@@ -1777,7 +1778,7 @@ fieldset { /* Prelude: information page */
 	background-color: #4C777F !important;
 	background-image: none !important;
 	color: #99EEFF !important;
-	border-color:  !important;
+	border-color: #000000 !important;
 	border-style: solid !important;
 	border-width: 1px !important;
 }
@@ -1863,7 +1864,49 @@ fieldset { /* Prelude: information page */
 }
 
 
+/* redis.io */
+.command { /* redis.io: tile-command */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #99EEFF !important;
+	
+	border-color: #4C777F !important;
+}
+.summary { /* redis.io: tile-summary */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #99EEFF !important;
+	
+	border-color: #4C777F !important;
+}
+
+
+
 /* Generic */
+nav { /* navigation bar */
+	background-image: none !important;
+	background-color: #1E2F33 !important;
+	color: #89D6E5 !important;
+	
+	border-color: #4C777F !important;
+}
+
+header { /* page header */
+	background-image: none !important;
+	background-color: #1E2F33 !important;
+	color: #89D6E5 !important;
+	
+	border-color: #4C777F !important;
+}
+
+li { /* list item */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #99EEFF !important;
+	
+	border-color: #4C777F !important;
+}
+
 .main-content { /* Misc */
 	background-color: black !important;
 	color: #99EEFF !important;

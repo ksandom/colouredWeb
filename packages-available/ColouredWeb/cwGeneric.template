@@ -2,6 +2,7 @@
  * window text: ~!ColouredWeb,currentTheme,windowText!~
  * window background: ~!ColouredWeb,currentTheme,windowBackground!~
  * non-write background: ~!ColouredWeb,currentTheme,nonWriteBackground!~
+ * medium text: ~!ColouredWeb,currentTheme,mediumText!~
  * medium background: ~!ColouredWeb,currentTheme,mediumBackground!~
  * panel text: ~!ColouredWeb,currentTheme,panelText!~
  * panel background: ~!ColouredWeb,currentTheme,panelBackground!~
@@ -1230,7 +1231,7 @@ fieldset { /* Prelude: information page */
 .active { /* Pagerduty: incident list - top menu bar */
 	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 	background-image: none !important;
-	color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,mediumText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 }
@@ -1863,7 +1864,49 @@ fieldset { /* Prelude: information page */
 }
 
 
+/* redis.io */
+.command { /* redis.io: tile-command */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+.summary { /* redis.io: tile-summary */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+
+
 /* Generic */
+nav { /* navigation bar */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+header { /* page header */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,panelBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,panelText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
+li { /* list item */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	
+	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+}
+
 .main-content { /* Misc */
 	background-color: black !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
