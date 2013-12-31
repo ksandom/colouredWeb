@@ -687,6 +687,11 @@
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.final-path { /* Github: The last part of the path when viewing the contents of a file. */
+	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
+}
+
 
 
 
