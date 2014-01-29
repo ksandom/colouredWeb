@@ -6,11 +6,45 @@ Making the web more accessible to people sensitive to particular colours and sha
 
     export extraSrc="https://github.com/ksandom/colouredWeb.git"; curl https://raw.github.com/ksandom/achel/master/supplimentary/misc/webInstall | bash
 
+## Using it
+
+This re-colours all web pages to a colour that suits me very well. It's a dark, low-saturation, greeny-blue.
+
+    $ colouredweb --colourByHex=99eeff --cwOut
+    
+      hexInput: 
+        0: 153
+        1: 238
+        2: 255
+    [debug0]: You will now need to run something like --cwOut to send this to some files.
+
+This turns off the custom formatting.
+Note that this isn't totally correct, in that it actually places syntactically incorrect CSS in place, so some glitches could be present, but I have yet to notice them. I will try to do this better in the near future.
+
+    $ colouredweb --cwOut
+    
+      Chrome: 
+        line: /home/ksandom/.config/google-chrome/Default/User StyleSheets/Custom.css
+        key: Chrome
+      Opera: 
+        line: /usr/share/opera/user.css
+        key: Opera
+
+[More info](https://github.com/ksandom/colouredWeb/tree/master/packages-available/ColouredWeb/docs).
+
 ## How it works
+
+### Short
+
+ColouredWeb generates a custom CSS that overrides the CSS that websites provide to make the web more useable to people who are sensitive to certain colours.
+
+### Lond
 
 Most modern browsers have the ability for the user to specify their own CSS file which can selectively override the formatting on websites. This is an excellent tool for making the web more accessible to people with specific requirements. The challenge is that there is no standard that most websites adhere to which makes it quite time consuming to make a CSS file that works everywhere.
 
 That's where this project comes in. The idea is to make everything at least useable and secondly, most things fairly pretty (prefferably in the author's original flavour, but not at the expense of this project's standards.)
+
+Right now, only chrome and opera are supported. Note that chrome is particularly friendly to this since it applies changes from the CSS file almost immediately which makes testing *beauuuuutifully* easy.
 
 ## Timeline
 
@@ -25,16 +59,16 @@ That's where this project comes in. The idea is to make everything at least usea
 
 ## Contributing
 
-I'm not ready to take contributions yet, but will be very keen to take them once I have the templating working.
+I'm not ready to take contributions yet, but will be very keen to take them very soon.
 
 The sort of things that will be useful are:
 
  * Fixes for glitches on specific web sites. (This area will be by far the most contributions.)
  * Preset colour schemes.
 
-In the future, it would be cool to guide a standard for class names and ids, since this would make a project like this **much** easire!
+In the future, it would be cool to create a standard/guide for class names and ids, since this would make a project like this **much** easire! If you know of one, please let me know. I'd rather support an existing standard than create one more.
 
-It's really important to not block ads with this project. There are other projects available online which help you do this.
+**It's really important to not block ads with this project.** There are other projects available online which help you do this.
 
 ## Why not block ads?
 
