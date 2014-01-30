@@ -30,6 +30,19 @@ Note that this isn't totally correct, in that it actually places syntactically i
         line: /usr/share/opera/user.css
         key: Opera
 
+Actually, we want to make it a dark theme
+
+    $ colouredweb --cwDark
+    $ colouredweb --colourByHex=99eeff --cwOut
+    
+      hexInput: 
+        0: 153
+        1: 238
+        2: 255
+    [debug0]: You will now need to run something like --cwOut to send this to some files.
+
+There is also `--cwBright`.
+
 [More info](https://github.com/ksandom/colouredWeb/tree/master/packages-available/ColouredWeb/docs).
 
 ## How it works
@@ -38,7 +51,7 @@ Note that this isn't totally correct, in that it actually places syntactically i
 
 ColouredWeb generates a custom CSS that overrides the CSS that websites provide to make the web more useable to people who are sensitive to certain colours.
 
-### Lond
+### Long
 
 Most modern browsers have the ability for the user to specify their own CSS file which can selectively override the formatting on websites. This is an excellent tool for making the web more accessible to people with specific requirements. The challenge is that there is no standard that most websites adhere to which makes it quite time consuming to make a CSS file that works everywhere.
 

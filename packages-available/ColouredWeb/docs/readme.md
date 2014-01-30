@@ -19,6 +19,19 @@ This re-colours all web pages to a colour that suits me very well. It's a dark, 
         2: 255
     [debug0]: You will now need to run something like --cwOut to send this to some files.
 
+Actually, we want to make it a dark theme
+
+    $ colouredweb --cwDark
+    $ colouredweb --colourByHex=99eeff --cwOut
+    
+      hexInput: 
+        0: 153
+        1: 238
+        2: 255
+    [debug0]: You will now need to run something like --cwOut to send this to some files.
+
+There is also `--cwBright`.
+
 This turns off the custom formatting.
 
     $ colouredweb --cwOut
