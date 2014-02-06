@@ -513,6 +513,47 @@
 
 
 
+/* Site: Youtube.com */
+.yt-uix-subscription-button.yt-can-buffer.yt-uix-button.yt-uix-button-subscribe-unbranded.yt-uix-button-size-default.yt-uix-button-has-icon { /* youtube: button wrapper */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.yt-uix-subscription-button.yt-can-buffer.yt-uix-button.yt-uix-button-size-default.yt-uix-button-has-icon.yt-is-buffered.yt-uix-button-subscribed-branded.hover-enabled { /* youtube: subscribe button wrapper on the video page */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.yt-uix-subscription-preferences-button.yt-uix-button.yt-uix-button-default.yt-uix-button-size-default.yt-uix-button-has-icon.yt-uix-button-empty { /* youtube: subscribe button gear wrapper on the video page */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.subscribe-label { /* youtube; subscribe button */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.subscribed-label { /* youtube; subscribed button */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.unsubscribe-label { /* youtube; unsubscribe button */
+	background-image: none !important;
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+
 
 
 /* Site: Google calendar */
