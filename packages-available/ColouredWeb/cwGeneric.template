@@ -563,7 +563,7 @@
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
-.Ub.TD { /* youtube: video owner comment label */
+.Ub.TD { /* youtube: reply comment label */
 	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
 	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
 	border-color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
