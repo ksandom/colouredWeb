@@ -553,6 +553,21 @@
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
+.SQb.MJa { /* youtube: like button */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.RQb.LJa { /* youtube: dislike button */
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
+}
+
+.Ub.TD { /* youtube: video owner comment label */
+	color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
+	border-color: ~!ColouredWeb,currentTheme,highlightText!~ !important;
+}
 
 
 
