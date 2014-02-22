@@ -17,5 +17,5 @@ addShade 0
 set Tmp,home,/home/ksandom
 
 addCWOutput Chrome,~!Tmp,home!~/.config/google-chrome/Default/User StyleSheets/Custom.css
-addCWOutput Opera,/usr/share/opera/user.css
+addCWOutput Opera,/usr/share/opera/styles/user.css
 # TODO figure out firefox
