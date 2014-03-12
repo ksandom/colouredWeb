@@ -1,4 +1,4 @@
-# Send generated output to file. --cwOut[=refine]  ~ colouredWeb
+# Send generated output to file. --cwOut[=refine]  ~ colouredWeb,user
 
 collectionLoad ColouredWeb
 
