@@ -4,7 +4,7 @@ Making the web more accessible to people sensitive to particular colours and sha
 
 ## Installing it
 
-    export extraSrc="https://github.com/ksandom/colouredWeb.git"; curl https://raw.github.com/ksandom/achel/master/supplimentary/misc/webInstall | bash
+    export extraSrc="https://github.com/ksandom/colouredWeb.git"; curl https://raw.githubusercontent.com/ksandom/achel/master/supplimentary/misc/webInstall | bash
 
 ## Using it
 
