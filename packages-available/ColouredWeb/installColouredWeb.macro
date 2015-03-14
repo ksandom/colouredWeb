@@ -14,8 +14,10 @@ addShade 0.2
 addShade 0.1
 addShade 0
 
+# TODO fix detection of home
 set Tmp,home,/home/ksandom
 
+# TODO fix firefox
+addCWOutput Firefox,~!Tmp,home!~/.mozilla/firefox/s9dvaj0q.default/chrome/userContent.css
 addCWOutput Chrome,~!Tmp,home!~/.config/google-chrome/Default/User StyleSheets/Custom.css
 addCWOutput Opera,/usr/share/opera/styles/user.css
-# TODO figure out firefox
