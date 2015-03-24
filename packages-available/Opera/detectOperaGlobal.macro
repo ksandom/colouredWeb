@@ -1,0 +1,9 @@
+# Detect Opera configuration. ~ browser,firefox
+#onDefine registerForEvent Browser,detect,detectOpera
+
+getHome Local,home
+getFileTree /usr/share/opera,true
+requireItem path,styles
+stashResults Local,operaGlobal
+addCWOutput Opera-global,~!Local,operaGlobal,styles,subEntries,user.css,path!~
+clear
