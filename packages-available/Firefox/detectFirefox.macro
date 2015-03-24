@@ -1,4 +1,4 @@
-# Detect firefox configuration. ~ browser,firefox
+# Detect Firefox configuration. ~ browser,firefox
 #onDefine registerForEvent Browser,detect,detectFirefox
 
 getHome Local,home
