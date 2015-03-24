@@ -1,0 +1,9 @@
+# Detect firefox configuration. ~ browser,firefox
+#onDefine registerForEvent Browser,detect,detectFirefox
+
+getHome Local,home
+getFileTree ~!Local,home!~/.mozilla/firefox,true
+requireItem ,..*\.default
+loop
+	addCWOutput Firefox-user,~!Result,path!~/chrome/userContent.css
+clear
