@@ -1,8 +1,8 @@
 # colouredWeb
 
-Making the web more accessible to people sensitive to particular colours and shades. An example of this is [Irlen Syndrome](http://en.wikipedia.org/wiki/Irlen_syndrome#Theory)
-
 \[Update: This project is currently inactive. You are still welcome to use it, but there are some [really good plugins available](#alternatives) now.\]
+
+Making the web more accessible to people sensitive to particular colours and shades. An example of this is [Irlen Syndrome](http://en.wikipedia.org/wiki/Irlen_syndrome#Theory)
 
 ## Alternatives
 
@@ -24,6 +24,10 @@ Making the web more accessible to people sensitive to particular colours and sha
 "Dark background and light text" is really fast, and is my first choice. It works really well.
 
 "Dark reader" looks gorgeous, and has some really nice controls for adjusting the look of pages. Some of the controls even apply to videos in pages. There is a performance impact, though. Especially on firefox.
+
+Some sites work better in one or the other. So I typically have firefox and a chrome based browser open at the same time, each for different tasks.
+
+Here is some [interesting discussion](https://www.reddit.com/r/firefox/comments/9mm9jw/best_dark_extension/) from other people on the topic, including some other plugins that I haven't tried yet.
 
 ## Installing it
 
