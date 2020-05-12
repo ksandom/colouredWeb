@@ -2,6 +2,29 @@
 
 Making the web more accessible to people sensitive to particular colours and shades. An example of this is [Irlen Syndrome](http://en.wikipedia.org/wiki/Irlen_syndrome#Theory)
 
+\[Update: This project is currently inactive. You are still welcome to use it, but there are some [really good plugins available](#alternatives) now.\]
+
+## Alternatives
+
+## What I recommend, where
+
+* Firefox
+  * [Dark background and light text](https://addons.mozilla.org/en-US/firefox/addon/dark-background-light-text/).
+  * [Dark reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/).
+* Chrome based
+  * [Dark reader.](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+  * [Dark background and light text](https://chrome.google.com/webstore/detail/dark-background-and-light/cdcoopnlkdlmphjpjggdmhohkiklonkh?hl=en) - _OH! I need to try this!_
+* Safari
+  * [Dark reader](https://darkreader.org/safari). - _I have not used it on this platform._
+* Edge
+  * [Dark reader](https://microsoftedge.microsoft.com/addons/detail/ifoakfbpdcdoeenechcleahebpibofpc). - _I have not used it on this platform._
+
+## Overview of the plugins
+
+"Dark background and light text" is really fast, and is my first choice. It works really well.
+
+"Dark reader" looks gorgeous, and has some really nice controls for adjusting the look of pages. Some of the controls even apply to videos in pages. There is a performance impact, though. Especially on firefox.
+
 ## Installing it
 
     export extraSrc="https://github.com/ksandom/colouredWeb.git"; curl https://raw.githubusercontent.com/ksandom/achel/master/supplimentary/misc/webInstall | bash
