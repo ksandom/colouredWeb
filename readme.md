@@ -6,7 +6,7 @@ Making the web more accessible to people sensitive to particular colours and sha
 
 ## Alternatives
 
-## What I recommend, where
+### What I recommend, where
 
 * Firefox
   * [Dark background and light text](https://addons.mozilla.org/en-US/firefox/addon/dark-background-light-text/).
@@ -19,7 +19,7 @@ Making the web more accessible to people sensitive to particular colours and sha
 * Edge
   * [Dark reader](https://microsoftedge.microsoft.com/addons/detail/ifoakfbpdcdoeenechcleahebpibofpc). - _I have not used it on this platform._
 
-## Overview of the plugins
+### Overview of the plugins
 
 "Dark background and light text" is really fast, and is my first choice. It works really well.
 
