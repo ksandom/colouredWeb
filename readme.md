@@ -1,6 +1,6 @@
-# colouredWeb
-
 \[Update: This project is currently inactive. You are still welcome to use it, but there are some [really good plugins available](#alternatives) now.\]
+
+# colouredWeb
 
 Making the web more accessible to people sensitive to particular colours and shades. An example of this is [Irlen Syndrome](http://en.wikipedia.org/wiki/Irlen_syndrome#Theory)
 
