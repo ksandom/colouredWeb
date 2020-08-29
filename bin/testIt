@@ -1,0 +1,17 @@
+#!/bin/bash
+# Test that it isn't broken. Because a break causes a silent failure that really isn't obvious.
+set -e
+
+function testInsert
+{
+    echo -n "Test insert. "
+    if echo | ./bin/insertSheet 1> /dev/null; then
+        echo "Pass."
+        return 0
+    else
+        echo "Fail."
+        return 0
+    fi
+}
+
+testInsert

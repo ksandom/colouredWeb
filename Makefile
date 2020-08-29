@@ -4,3 +4,6 @@ install:
 
 uninstall:
 	rm /usr/bin/insertSheet /var/lib/kmailMessageDarkMode/custom.css
+
+test:
+	./bin/testIt

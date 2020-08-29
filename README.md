@@ -4,12 +4,14 @@ Dark mode (themeS) for recieved messages in KMail.
 
 ## Install
 
+1. Test that it is in working order before installing.
+    ```bash
+    make test
+    ```
 1. Get the basics installed.
-
     ```bash
     sudo make install
     ```
-
 1. Create a mail filter to run the script when new mail comes in.
     1. "Settings"
     1. "Configure filters..."
