@@ -1,0 +1,4 @@
+#!/bin/bash
+# Insert the stylesheet into the email.
+
+sed "s/<head><!-- Inserted stylesheet using kmailMessageDarkMode.*END OF kmailMessageDarkMode -->//gs#<[hH][eE][aA][dD]>#<head><!-- Inserted stylesheet using kmailMessageDarkMode at $(date) --><link rel=\"stylesheet\" href=\"/var/lib/kmailMessageDarkMode/custom.css\"><!-- END OF kmailMessageDarkMode -->#g"
