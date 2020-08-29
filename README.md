@@ -37,3 +37,13 @@ If you're not sure,
 ```
 
 Then open up the emails and see what happens ;)
+
+After you're done, run `sudo ./bin/installSheet` to restore it to the default dark theme.
+
+## Uninstall
+
+This will remove the script and the stylesheet, which will cause kmail to revert to the formatting it would have otherwise used. It will not remove the seed from the emails that have already been processed.
+
+```bash
+sudo make uninstall
+```
