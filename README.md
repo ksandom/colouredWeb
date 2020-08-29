@@ -35,7 +35,7 @@ If you're not sure,
 ## Want to show off?
 
 ```bash
-./bin/showOff
+sudo ./bin/showOff
 ```
 
 Then open up the emails and see what happens ;)
