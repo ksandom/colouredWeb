@@ -1,0 +1,27 @@
+#!/bin/bash
+# Install in-place.
+if [ "$1" == '' ]; then
+    sheetFile="sheets/cwDark-ffffff.css"
+else
+    sheetFile="$1"
+fi
+
+for theme in /usr/share/messageviewer/defaultthemes/*; do
+    if [ -e "$theme/style.css" ]; then
+        echo "Installing $sheetFile into $theme ."
+        
+        # Make sure we have a backup of the original.
+        if [ ! -e "$theme/style-original.css" ]; then
+            echo "  Backup original CSS in $theme."
+            cp "$theme/style.css" "$theme/style-original.css"
+        fi
+        
+        # Copy the sheet.
+        cp "$sheetFile" "$theme/custom.css"
+        
+        # Combine the two stylesheets.
+        cat "$theme/style-original.css" "$theme/custom.css" > "$theme/style.css"
+    else
+        echo "No css in $theme ."
+    fi
+done
