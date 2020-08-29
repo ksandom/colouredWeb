@@ -1,0 +1,5 @@
+# List a ColouredWeb CSS outputs that were defined by --addCWOutput. This will be used to deploy the CSS. ~ colouredweb
+collectionLoad ColouredWeb
+
+get ColouredWeb,outputs,~!Local,name!~
+outNow

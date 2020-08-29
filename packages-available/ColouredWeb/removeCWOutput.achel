@@ -1,0 +1,7 @@
+# Remove a ColouredWeb CSS output that was defined by --addCWOutput. This will be used to deploy the CSS. --removeCWOutput=name eg --removeCWOutput=chrome ~ colouredweb
+parameters name
+
+collectionLoad ColouredWeb
+
+debug 2,removeCWOutput: ~!Local,name!~ 
+unset ColouredWeb,outputs,~!Local,name!~
