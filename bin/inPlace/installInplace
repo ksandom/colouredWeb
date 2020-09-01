@@ -2,7 +2,7 @@
 # Install a specified stylesheet in-place for use by kmail.
 
 if [ "$1" == '' ]; then
-    sheetFile="sheets/cwDark-ffffff.css"
+    sheetFile="sheets/cwBlackBlack-ffffff.css"
 else
     sheetFile="$1"
 fi
