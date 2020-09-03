@@ -99,14 +99,7 @@ Right now, only chrome and opera are supported. Note that chrome is particularly
 
 ## Contributing
 
-I'm not ready to take contributions yet, but will be very keen to take them very soon.
-
-The sort of things that will be useful are:
-
- * Fixes for glitches on specific web sites. (This area will be by far the most contributions.)
- * Preset colour schemes.
-
-In the future, it would be cool to create a standard/guide for class names and ids, since this would make a project like this **much** easire! If you know of one, please let me know. I'd rather support an existing standard than create one more.
+Pull requests welcome.
 
 **It's really important to not block ads with this project.** There are other projects available online which help you do this.
 
