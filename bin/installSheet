@@ -7,7 +7,7 @@ fi
 
 for theme in /usr/share/messageviewer/defaultthemes/*; do
     if [ -e "$theme/style-original.css" ]; then
-        ./bin/inPlace/installSheet "$1"
+        ./bin/inPlace/installInplace "$1"
         exit 0
     fi
 done
