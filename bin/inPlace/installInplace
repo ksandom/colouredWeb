@@ -2,10 +2,12 @@
 # Install a specified stylesheet in-place for use by kmail.
 
 if [ "$1" == '' ]; then
-    sheetFile="sheets/cwBlackBlack-ffffff.css"
+    sheetFile="colouredWeb/sheets/cwBlackBlack-ffffff.css"
 else
     sheetFile="$1"
 fi
+
+[ ! -e colouredWeb ] && ./bin/fetch
 
 for theme in /usr/share/messageviewer/defaultthemes/*; do
     if [ -e "$theme/style.css" ]; then

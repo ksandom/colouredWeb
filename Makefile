@@ -6,13 +6,13 @@ uninstall:
 
 install-filter:
 	./bin/filter/installBin
-	./bin/filter/installSheet sheets/cwBlackBlack-ffffff.css
+	./bin/filter/installSheet colouredWeb/sheets/cwBlackBlack-ffffff.css
 
 uninstall-filter:
 	rm /usr/bin/insertSheet /var/lib/kmailMessageDarkMode/custom.css
 
 install-inplace:
-	./bin/inPlace/installInplace sheets/cwBlackBlack-ffffff.css
+	./bin/inPlace/installInplace colouredWeb/sheets/cwBlackBlack-ffffff.css
 
 uninstall-inplace:
 	./bin/inPlace/uninstallInplace
