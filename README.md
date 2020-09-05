@@ -16,6 +16,7 @@ KMail already does a pretty good job at re-colouring HTML emails to the system t
 
 * make - To do the install/uninstall. (Can be done without it.)
 * [colouredWeb](https://github.com/ksandom/colouredWeb) - To generate the CSS stylesheet.
+* [shest](https://github.com/ksandom/shest) - To run the tests. There is a very basic test written in bash intended as a sanity check before installing.
 
 ## Install
 
