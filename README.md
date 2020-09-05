@@ -91,4 +91,10 @@ At that point we just need to make kmail use it using one of the two methods bel
     * A script and a CSS file are installed.
     * You create a mail filter that
         * Matches every message.
-        * Modifies the message on your local machine to include the stylesheet. This modification will remain after uninstallion, but the changes will not be visible since the stylesheet will no longer be present.
+        * Modifies the message on your local machine.
+            * Optional (default): Inserts a reference to the stylesheet into the message.
+                * This modification will remain after uninstallion, but the changes will not be visible since the stylesheet will no longer be present.
+                * I've laid the ground work so that this can be removed if there is a need for it.
+            * Optional (default): Removes hard-coded colours.
+                * This caters to **all** of the edge cases that I've found so far.
+                * I don't yet know of any way to undo this, should you want to.

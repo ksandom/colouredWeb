@@ -4,7 +4,7 @@ set -e
 
 function testInsert
 {
-    echo -n "Test insert. "
+    echo -n "Does it run without errors. "
     if echo | ./bin/filter/insertSheet 1> /dev/null; then
         echo "Pass."
         return 0
@@ -14,4 +14,14 @@ function testInsert
     fi
 }
 
+function doShest
+{
+    if which shest > /dev/null; then
+        shest
+    else
+        echo "You don't appear to have shest installed. The test above is probably enough for minimum sanity checking before installing, but you would definitely be better off with shest: https://github.com/ksandom/shest"
+    fi
+}
+
 testInsert
+doShest
