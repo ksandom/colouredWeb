@@ -106,13 +106,3 @@ Pull requests welcome.
 ## Why not block ads?
 
 Web developers and site owners can get passionately defensive of their website designs. It's going to be hard enough to get them to buy into a project like this that makes their site look different. Disabling ads on their sites would make it pretty much impossible since it would cut off a source of revenue for them.
-
-## Proof of concept
-
-<P><SPAN color=black bgcolor=white>Test thing</SPAN></P>
-<P><SPAN color=blue bgcolor=green>Test thing</SPAN></P>
-<P><SPAN color=brown bgcolor=yellow>Test thing</SPAN></P>
-<P><SPAN color=magenta bgcolor=gray>Test thing</SPAN></P>
-
-<P bgcolor=green><FONT color=blue>Test thing</FONT></P>
-<P><SPAN style="color=magenta; bgcolor=gray">Test thing</SPAN></P>
