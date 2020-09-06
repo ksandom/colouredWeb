@@ -1,5 +1,5 @@
 # Build a template from start to finish. --build=hexColour,fileOut. Eg --build=99eeff,sheets/99eeff.css
-parameters hexColour,fileOut
+parameters hexColour,fileOut,previewOut
 
 collectionLoad ColouredWeb
 
@@ -11,5 +11,10 @@ retrieveResults ColouredWeb,outputs
 retrieveResults Tmp,templateValues
 debug 1,Outputting CSS to ~!Local,fileOut!~
 singleStringNow ~!Local,fileOut!~
+
+template preview.svg
+debug 1,Outputting CSS to ~!Local,previewOut!~
+singleStringNow ~!Local,previewOut!~
+
 
 unset Tmp,templateValues

@@ -5,7 +5,7 @@ collectionLoad ColouredWeb
 hexToInts Tmp,hexInput,2,~!Global,colourByHex!~
 
 getCategory Tmp
-outNow
+# outNow
 
 retrieveResults ColouredWeb,shades
 loop
@@ -43,6 +43,6 @@ templateOut cwGeneric
 
 null
 template cwGeneric
-debug 0,You will now need to run something like --cwOut to send this to some files.
+debug 1,You will now need to run something like --cwOut to send this to some files.
 
 # .config/google-chrome/Default/User StyleSheets/Custom.css
