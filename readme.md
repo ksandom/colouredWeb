@@ -1,4 +1,4 @@
-<!-- This file has been generated from ./bin/build. If you want to edit it, edit "readme.source.md" and then run ./bin/build again. -->
+<!-- This file has been generated from ./bin/build. If you want to edit it, edit "./readme.source.md" and then run ./bin/build again. -->
 # colouredWeb
 
 Making the web more accessible to people sensitive to particular colours and shades. An example of this is [Irlen Syndrome](http://en.wikipedia.org/wiki/Irlen_syndrome#Theory)

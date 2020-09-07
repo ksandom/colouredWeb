@@ -2,7 +2,7 @@
 
 colours="ffffff 99eeff 99ffee eeff99 ffee99 ff99ee ff0000 00ff00 0000ff ffff00 ff00ff 00ffff ffff99 ff99ff 99ffff"
 modes="cwDark cwBright cwBlack cwBlackBlack"
-readmeSources="./readme.source.md ./apps/kmail/README.md"
+readmeSources="./readme.source.md ./apps/kmail/README.source.md"
 
 mkdir -p sheets previews
 
@@ -32,7 +32,7 @@ for colour in $colours; do
 done
 
 for readmeSource in $readmeSources; do
-    readmeFile="$(echo "$readmeSource | cut -d\. -f1").md"
+    readmeFile="$(echo "$readmeSource" | cut -d\. -f1,2).md"
     
     echo "Building ${readmeFile}"
     echo "<!-- This file has been generated from $0. If you want to edit it, edit \"$readmeSource\" and then run $0 again. -->" > "${readmeFile}"
