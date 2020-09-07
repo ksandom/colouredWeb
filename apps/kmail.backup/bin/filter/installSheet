@@ -1,0 +1,12 @@
+#!/bin/bash
+# Install a specified stylesheet for use by kmail.
+if [ "$1" == '' ]; then
+    sheetFile="sheets/cwBlackBlack-ffffff.css"
+else
+    sheetFile="$1"
+fi
+
+[ ! -e colouredWeb ] && ./bin/fetch
+
+mkdir -p "/var/lib/kmailMessageDarkMode/"
+cp -v "$sheetFile" "/var/lib/kmailMessageDarkMode/custom.css"
