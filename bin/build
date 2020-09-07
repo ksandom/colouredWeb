@@ -40,3 +40,9 @@ for readmeSource in $readmeSources; do
     echo >> "${readmeFile}"
     cat "preview.md" >> "${readmeFile}"
 done
+
+for app in apps/*; do
+    echo "Coping sheets to $app"
+    rm -Rf "$app/sheets" "$app/previews"
+    cp -R sheets previews "$app"
+done
