@@ -1,9 +1,15 @@
-<!-- This file has been generated from ./bin/build. If you want to edit it, edit "./readme.source.md" and then run ./bin/build again. -->
+<!-- This file has been generated from ./bin/build. If you want to edit it, edit "./README.source.md" and then run ./bin/build again. -->
 # colouredWeb
 
 Making the web more accessible to people sensitive to particular colours and shades. An example of this is [Irlen Syndrome](http://en.wikipedia.org/wiki/Irlen_syndrome#Theory)
 
-## Alternatives
+Historically I used this for generating custom StyleSheets for web browsers, and it worked excellently for years like this.
+
+Now it needs some work to bring it up to the quality I want. But I have recently found it really good for generating custom CSS for other purposes, and my old CSS still works with everything I try it on! (That was a surprise.)
+
+I suggest taking a look in [apps/](https://github.com/ksandom/colouredWeb/tree/master/apps) to see a list of apps where the install is currently automated. More coming soon.
+
+## Alternatives for browsing
 
 ### What I recommend, where
 
@@ -28,7 +34,13 @@ Some sites work better in one or the other. So I typically have firefox and a ch
 
 Here is some [interesting discussion](https://www.reddit.com/r/firefox/comments/9mm9jw/best_dark_extension/) from other people on the topic, including some other plugins that I haven't tried yet.
 
-## Installing it
+## Install
+
+### Install an app specific solution
+
+Go in to the appropriate [apps/](https://github.com/ksandom/colouredWeb/tree/master/apps) folder and follow the instructions for that app.
+
+### Installing colouredWeb for development
 
     export extraSrc="https://github.com/ksandom/colouredWeb.git"; curl https://raw.githubusercontent.com/ksandom/achel/master/supplimentary/misc/webInstall | bash
 
@@ -83,24 +95,11 @@ Most modern browsers have the ability for the user to specify their own CSS file
 
 That's where this project comes in. The idea is to make everything at least useable and secondly, most things fairly pretty (prefferably in the author's original flavour, but not at the expense of this project's standards.)
 
-Right now, only chrome and opera are supported. Note that chrome is particularly friendly to this since it applies changes from the CSS file almost immediately which makes testing *beauuuuutifully* easy.
-
-## Timeline
-
- * First attempt to make the sites I use frequently useable. Using my colours. - Done
- * Create github project. - Done
- * Template the CSS file so that other peoples' colours can be used. - Done
- * Generate common colours.
- * Start accepting user contributions to the template.
- * Create code that can be used on the funnyhacks.com website to allow people to generate their own CSS files simply and easily.
- * Create service that hooks into KDE desktop to dynamically update the CSS file as the colour scheme is changed. (This is a personal itch that I want to scratch, but I don't expect it to be useful to many people.)
- * Create browser plugins to make it easier for users to choose the colors that suit them best, on the fly.
+Chrome dropped support for this some time ago. I suggest taking a look at the [Alternatives for browsing](https://github.com/ksandom/colouredWeb#alternatives-for-browsing)
 
 ## Contributing
 
 Pull requests welcome.
-
-**It's really important to not block ads with this project.** There are other projects available online which help you do this.
 
 ## Why not block ads?
 
