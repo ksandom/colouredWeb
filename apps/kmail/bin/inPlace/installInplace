@@ -7,8 +7,6 @@ else
     sheetFile="$1"
 fi
 
-[ ! -e colouredWeb ] && ./bin/fetch
-
 for theme in /usr/share/messageviewer/defaultthemes/*; do
     if [ -e "$theme/style.css" ]; then
         echo "Installing $sheetFile into $theme ."

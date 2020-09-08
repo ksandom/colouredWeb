@@ -6,7 +6,5 @@ else
     sheetFile="$1"
 fi
 
-[ ! -e colouredWeb ] && ./bin/fetch
-
 mkdir -p "/var/lib/kmailMessageDarkMode/"
 cp -v "$sheetFile" "/var/lib/kmailMessageDarkMode/custom.css"
