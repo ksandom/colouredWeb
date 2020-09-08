@@ -1,8 +1,10 @@
 install:
 	make install-inplace
+	make install-filter
 
 uninstall:
 	make uninstall-inplace
+	make uninstall-filter
 
 install-filter:
 	./bin/filter/installBin
