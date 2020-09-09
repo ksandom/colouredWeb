@@ -1,5 +1,5 @@
 <!-- This file has been generated from ./bin/build. If you want to edit it, edit "./apps/kmail/README.source.md" and then run ./bin/build again. -->
-# kmailMessageDarkMode
+# colouredWeb/apps/kmail
 
 Dark mode (themeS) for recieved messages in KMail.
 

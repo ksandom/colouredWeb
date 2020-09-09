@@ -1,4 +1,4 @@
-# kmailMessageDarkMode
+# colouredWeb/apps/kmail
 
 Dark mode (themeS) for recieved messages in KMail.
 
