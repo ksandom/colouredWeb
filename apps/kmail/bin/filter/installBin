@@ -2,5 +2,7 @@
 # Install the insert script for use by kmail.
 sheetFile="$1"
 
+./bin/filter/testIt || exit 1
+
 cp -v "bin/filter/insertSheet" "/usr/bin/insertSheet"
 chmod 755 "/usr/bin/insertSheet"
