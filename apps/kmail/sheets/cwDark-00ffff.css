@@ -16,6 +16,11 @@
  * highlight background: #00CCCC
  */
 
+.headerbox { /* Kmail header box with to and from address in it. */
+	color: #000000
+	background-color: #007F7F
+}
+
 .Bu { /* Gmail: Email view */
 	background-image: none !important;
 	background-color: black !important;
@@ -289,7 +294,7 @@
 
 .fN { /* Gmail: Composer area */
 	background-image: none !important;
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
@@ -1508,13 +1513,13 @@ fieldset { /* Prelude: information page */
 
 /* Generic */
 .highlight_disabled { /* highlighted text */
-	background-color: #001919 !important;
+	background-color: #00CCCC !important;
 	background-image: none !important;
 	color: #00FFFF !important;
 }
 
 .content { /* content area. Generic? */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	background-image: none !important;
 	color: #00FFFF !important;
 }
@@ -1981,14 +1986,14 @@ li { /* list item */
 
 
 div { /* Div area */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 	
 	border-color: #00FFFF !important;
 }
 
 pre { /* Pre-formatted text */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 	
 	border-color: #00FFFF !important;
@@ -1999,21 +2004,21 @@ a  { /* Link */
 }
 
 thead { /* Table Heading */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 	
 	border-color: #007F7F !important;
 }
 
 th { /* Table Heading */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 	
 	border-color: #007F7F !important;
 }
 
 td { /* Table cell */
-	background-color: #001919 !important; /* TODO reconsider this. It's bound to be breaking stuff. */
+	background-color: #000000 !important; /* TODO reconsider this. It's bound to be breaking stuff. */
 	color: #00FFFF !important;
 	
 	border-color: #007F7F !important;
@@ -2025,49 +2030,49 @@ tr { /* Table row */
 
 
 h1 { /* Heading 1 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
 h2 { /* Heading 2 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 	
 	border-color: #00FFFF !important
 }
 
 h3 { /* Heading 3 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
 h4 { /* Heading 4 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
 h5 { /* Heading 5 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
 h6 { /* Heading 6 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
 h7 { /* Heading 7 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
 h8 { /* Heading 8 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
 h9 { /* Heading 9 */
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 
@@ -2126,7 +2131,7 @@ html { /* Default stuff. */
 
 p {
 	background-image: none !important;
-	background-color: #001919 !important;
+	background-color: #000000 !important;
 	color: #00FFFF !important;
 }
 

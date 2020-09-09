@@ -16,6 +16,11 @@
  * highlight background: ~!ColouredWeb,currentTheme,highlightBackground!~
  */
 
+.headerbox { /* Kmail header box with to and from address in it. */
+	color: ~!ColouredWeb,currentTheme,mediumText!~
+	background-color: ~!ColouredWeb,currentTheme,mediumBackground!~
+}
+
 .Bu { /* Gmail: Email view */
 	background-image: none !important;
 	background-color: black !important;
@@ -289,7 +294,7 @@
 
 .fN { /* Gmail: Composer area */
 	background-image: none !important;
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
@@ -1508,13 +1513,13 @@ fieldset { /* Prelude: information page */
 
 /* Generic */
 .highlight_disabled { /* highlighted text */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,highlightBackground!~ !important;
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 .content { /* content area. Generic? */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	background-image: none !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
@@ -1981,14 +1986,14 @@ li { /* list item */
 
 
 div { /* Div area */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 pre { /* Pre-formatted text */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important;
@@ -1999,21 +2004,21 @@ a  { /* Link */
 }
 
 thead { /* Table Heading */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 }
 
 th { /* Table Heading */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
 }
 
 td { /* Table cell */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important; /* TODO reconsider this. It's bound to be breaking stuff. */
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important; /* TODO reconsider this. It's bound to be breaking stuff. */
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,mediumBackground!~ !important;
@@ -2025,49 +2030,49 @@ tr { /* Table row */
 
 
 h1 { /* Heading 1 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 h2 { /* Heading 2 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 	
 	border-color: ~!ColouredWeb,currentTheme,windowText!~ !important
 }
 
 h3 { /* Heading 3 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 h4 { /* Heading 4 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 h5 { /* Heading 5 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 h6 { /* Heading 6 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 h7 { /* Heading 7 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 h8 { /* Heading 8 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
 h9 { /* Heading 9 */
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 
@@ -2126,7 +2131,7 @@ html { /* Default stuff. */
 
 p {
 	background-image: none !important;
-	background-color: ~!ColouredWeb,currentTheme,nonWriteBackground!~ !important;
+	background-color: ~!ColouredWeb,currentTheme,windowBackground!~ !important;
 	color: ~!ColouredWeb,currentTheme,windowText!~ !important;
 }
 

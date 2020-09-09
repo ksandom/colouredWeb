@@ -16,6 +16,11 @@
  * highlight background: #4C0000
  */
 
+.headerbox { /* Kmail header box with to and from address in it. */
+	color: #000000
+	background-color: #330000
+}
+
 .Bu { /* Gmail: Email view */
 	background-image: none !important;
 	background-color: black !important;
@@ -1508,7 +1513,7 @@ fieldset { /* Prelude: information page */
 
 /* Generic */
 .highlight_disabled { /* highlighted text */
-	background-color: #000000 !important;
+	background-color: #4C0000 !important;
 	background-image: none !important;
 	color: #FF0000 !important;
 }
