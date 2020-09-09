@@ -20,14 +20,21 @@ KMail already does a pretty good job at re-colouring HTML emails to the system t
 
 ## Install
 
-### Install - In place method
+### Install - everything
 
 1. Install it.
     ```bash
     sudo make install
     ```
 
-### Install - Filter method
+### Install - In-place method only
+
+1. Install it.
+    ```bash
+    sudo make install-inplace
+    ```
+
+### Install - Filter method only
 
 1. Test that it is in working order before installing.
     ```bash
@@ -65,12 +72,20 @@ Then open up the emails and see what happens ;)
 
 After you're done, run `sudo ./bin/installSheet` to restore it to the default dark theme.
 
-## Uninstall - In place method
+## Uninstall - Everything
+
+This will run uninstall both the in-place method, and the filter method. It is safe to re-run this even if they aren't installed.
+
+```bash
+sudo make uninstall
+```
+
+## Uninstall - In-place method
 
 This will restore the original stylesheet to it's original state, without the changes we made.
 
 ```bash
-sudo make uninstall
+sudo make uninstall-inplace
 ```
 
 ## Uninstall - Filter method
@@ -87,8 +102,8 @@ I've revived [one of my old projects](https://github.com/ksandom/colouredWeb) to
 
 At that point we just need to make kmail use it using one of the two methods below:
 
-* "In place" - **You want this one, unless you have problems.** The custom stylesheet is appended to an existing stylesheet used for formatting message details in the header of the email output. If it successfully installs, there's very little to go wrong with it, but it could be fragile as kmail evolves and things need to get changed. )
-* "Filter" - My first attempt. There's a bit more set-up involved, and sometimes it's frustrating to work out why something isn't working, but there's more power available to user to be able to fix things when things go wrong, without needing to dive into code.
+* The custom stylesheet is appended to an existing stylesheet used for formatting message details in the header of the email output. If it successfully installs, there's very little to go wrong with it, but it could be fragile as kmail evolves and things need to get changed. )
+* "Filter" - My first attempt. There's a bit more set-up involved, and sometimes it's frustrating to work out why something isn't working, but there's more power available to the user to be able to fix things when things go wrong, without needing to dive into code.
     * A script and a CSS file are installed.
     * You create a mail filter that
         * Matches every message.
@@ -99,3 +114,6 @@ At that point we just need to make kmail use it using one of the two methods bel
             * Optional (default): Removes hard-coded colours.
                 * This caters to **all** of the edge cases that I've found so far.
                 * I don't yet know of any way to undo this, should you want to.
+
+Right now, the default method is to install both methods. This gives us the simplicity of the inPlace method, and the versatility of the filter method.
+

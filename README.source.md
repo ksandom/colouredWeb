@@ -33,17 +33,18 @@ Some sites work better in one or the other. So I typically have firefox and a ch
 
 Here is some [interesting discussion](https://www.reddit.com/r/firefox/comments/9mm9jw/best_dark_extension/) from other people on the topic, including some other plugins that I haven't tried yet.
 
-## Install
 
-### Install an app specific solution
+## Install an app specific solution - USERS
 
 Go in to the appropriate [apps/](https://github.com/ksandom/colouredWeb/tree/master/apps) folder and follow the instructions for that app.
 
-### Installing colouredWeb for development
+## Installing & using colouredWeb for development - DEVELOPERS
+
+### Install
 
     export extraSrc="https://github.com/ksandom/colouredWeb.git"; curl https://raw.githubusercontent.com/ksandom/achel/master/supplimentary/misc/webInstall | bash
 
-## Using it
+### Using it
 
 This re-colours all web pages to a colour that suits me very well. It's a dark, low-saturation, greeny-blue.
 
@@ -82,13 +83,13 @@ There is also `--cwBright`.
 
 [More info](https://github.com/ksandom/colouredWeb/tree/master/packages-available/ColouredWeb/docs).
 
-## How it works
+### How it works
 
-### Short
+#### Short
 
 ColouredWeb generates a custom CSS that overrides the CSS that websites provide to make the web more useable to people who are sensitive to certain colours.
 
-### Long
+#### Long
 
 Most modern browsers have the ability for the user to specify their own CSS file which can selectively override the formatting on websites. This is an excellent tool for making the web more accessible to people with specific requirements. The challenge is that there is no standard that most websites adhere to which makes it quite time consuming to make a CSS file that works everywhere.
 
