@@ -76,8 +76,7 @@ esac
 # Run the filter only if it is not disabled.
 if [ "$filterMethod" != 'disable' ]; then
     if [ "$shouldFixNewLines" == 'true' ]; then
-        sed "s/=3D/=/g;" | sed "$fixNewLines" | sed "$filter" | tee /tmp/a
-        #sed "$fixNewLines" | sed "$filter"
+        sed "s/=3D/=/g;" | sed "$fixNewLines" | sed "$filter"
     else
         sed "$filter"
     fi
