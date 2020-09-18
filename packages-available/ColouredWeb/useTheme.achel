@@ -1,0 +1,17 @@
+# Use a theme defined in defineThemeShades.achel. --useTheme=themeName . Eg --useTheme=cwBlack ~ colouredWeb
+parameters themeName
+
+collectionLoad ColouredWeb
+
+if ~!ColouredWeb,themeShades,~!Local,themeName!~,windowText!~,!=,,
+	setNested ColouredWeb,mapping,windowText,~!ColouredWeb,themeShades,~!Local,themeName!~,windowText!~
+	setNested ColouredWeb,mapping,windowBackground,~!ColouredWeb,themeShades,~!Local,themeName!~,windowBackground!~
+	setNested ColouredWeb,mapping,nonWriteBackground,~!ColouredWeb,themeShades,~!Local,themeName!~,nonWriteBackground!~
+	setNested ColouredWeb,mapping,mediumText,~!ColouredWeb,themeShades,~!Local,themeName!~,mediumText!~
+	setNested ColouredWeb,mapping,mediumBackground,~!ColouredWeb,themeShades,~!Local,themeName!~,mediumBackground!~
+	setNested ColouredWeb,mapping,panelText,~!ColouredWeb,themeShades,~!Local,themeName!~,panelText!~
+	setNested ColouredWeb,mapping,panelBackground,~!ColouredWeb,themeShades,~!Local,themeName!~,panelBackground!~
+	setNested ColouredWeb,mapping,highlightText,~!ColouredWeb,themeShades,~!Local,themeName!~,highlightText!~
+	setNested ColouredWeb,mapping,highlightBackground,~!ColouredWeb,themeShades,~!Local,themeName!~,highlightBackground!~
+else
+	debug 0,Theme "~!Local,themeName!~" not found.

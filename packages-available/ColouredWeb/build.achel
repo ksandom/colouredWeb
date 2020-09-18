@@ -1,20 +1,56 @@
-# Build a template from start to finish. --build=hexColour,fileOut. Eg --build=99eeff,sheets/99eeff.css
-parameters hexColour,fileOut,previewOut
+# Build all colour and theme combinations from start to finish. --build=cssDir,previewDir Eg --build=sheets,preview . Or --build=out/sheets,out/preview ~ build,theme
+
+parameters cssDir,previewDir
 
 collectionLoad ColouredWeb
 
-colourByHex ~!Local,hexColour!~
+# Build the preview headings.
+set Local,hexColour,
+retrieveResults ColouredWeb,themeShades
+sortOnKey
+template preview.md-headings
+stashResults Local,headings
 
-stashResults Tmp,templateValues
-retrieveResults ColouredWeb,outputs
+# Build the preview heading divider.
+retrieveResults ColouredWeb,themeShades
+sortOnKey
+template preview.md-dividor
+stashResults Local,headingDividor
 
-retrieveResults Tmp,templateValues
-debug 1,Outputting CSS to ~!Local,fileOut!~
-singleStringNow ~!Local,fileOut!~
+# Build the preview.
+debug 0,Building preview.md.
+retrieveResults ColouredWeb,colours
+sortOnValue
+loop
+	set Local,hexColour,~!Result,line!~
+	retrieveResults ColouredWeb,themeShades
+	sortOnKey
+	template preview.md-line
+	stashResults Result,compiled
+flatten
+template preview.md
+singleStringNow preview.md
 
-template preview.svg
-debug 1,Outputting CSS to ~!Local,previewOut!~
-singleStringNow ~!Local,previewOut!~
 
 
-unset Tmp,templateValues
+debug 0,Building sheets.
+# Loop through colours.
+retrieveResults ColouredWeb,colours
+loop
+	set Local,hexColour,~!Result,line!~
+	
+	isolate
+		# Loop through the themeShades
+		retrieveResults ColouredWeb,themeShades
+		loop
+			set Local,theme,~!Result,key!~
+			
+			useTheme ~!Local,theme!~
+			
+			# Figure out the paths.
+			set Local,fileOut,~!Local,cssDir!~/~!Local,theme!~-~!Local,hexColour!~.css
+			set Local,previewOut,~!Local,previewDir!~/~!Local,theme!~-~!Local,hexColour!~.svg
+			
+			debug 1,~!Local,hexColour!~ / ~!Local,theme!~
+			buildTheme ~!Local,hexColour!~,~!Local,fileOut!~,~!Local,previewOut!~
+	

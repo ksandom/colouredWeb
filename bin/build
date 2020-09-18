@@ -1,40 +1,15 @@
 #!/bin/bash
 
-colours="ffffff 99eeff 99ffee eeff99 ffee99 ff99ee ff0000 00ff00 0000ff ffff00 ff00ff 00ffff ffff99 ff99ff 99ffff"
-modes="cwDark cwBright cwBlack cwBlackBlack"
 readmeSources="./README.source.md ./apps/kmail/README.source.md"
 
 mkdir -p sheets previews
 
-echo -e "## Preview of the themes\n" > preview.md
-
-echo -n "|   " >> preview.md
-for cwMode in $modes; do
-    echo -n "| $cwMode " >> preview.md
-done
-echo "|" >> preview.md
-
-echo -n "|:---:" >> preview.md
-for cwMode in $modes; do
-    echo -n "|:---:" >> preview.md
-done
-echo "|" >> preview.md
-
-for colour in $colours; do
-    echo -n "| $colour |" >> preview.md
-    for cwMode in $modes; do
-        echo "$colour + $cwMode"
-        colouredweb --"${cwMode}"
-        colouredweb --build="${colour},sheets/${cwMode}-${colour}.css,previews/${cwMode}-${colour}.svg"
-        echo -n " [![Preview of the theme ${cwMode}-${colour}.](previews/${cwMode}-${colour}.svg)](sheets/${cwMode}-${colour}.css) |" >> preview.md
-    done
-    echo >> preview.md
-done
+colouredweb --build=sheets,previews
 
 for readmeSource in $readmeSources; do
     readmeFile="$(echo "$readmeSource" | cut -d\. -f1,2).md"
     
-    echo "Building ${readmeFile}"
+    echo "Building ${readmeFile}".
     echo "<!-- This file has been generated from $0. If you want to edit it, edit \"$readmeSource\" and then run $0 again. -->" > "${readmeFile}"
     cat "$readmeSource" >> "${readmeFile}"
     echo >> "${readmeFile}"
@@ -42,7 +17,7 @@ for readmeSource in $readmeSources; do
 done
 
 for app in apps/*; do
-    echo "Coping sheets to $app"
+    echo "Coping sheets to $app".
     rm -Rf "$app/sheets" "$app/previews"
     cp -R sheets previews "$app"
 done

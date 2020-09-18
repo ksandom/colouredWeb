@@ -3,3 +3,5 @@
 collectionLoad ColouredWeb
 
 setNested ColouredWeb,shades,~!Global,addShade-0!~,~!Global,addShade-0!~
+
+collectionSave ColouredWeb
