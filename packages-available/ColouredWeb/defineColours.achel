@@ -2,6 +2,7 @@
 
 collectionLoad ColouredWeb
 
+unset ColouredWeb,colours
 massSet ["ColouredWeb,colours"],
 	setNested ~!Me,stuff!~,,ffffff
 	setNested ~!Me,stuff!~,,99eeff
