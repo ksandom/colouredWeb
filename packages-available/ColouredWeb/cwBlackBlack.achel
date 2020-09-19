@@ -1,4 +1,4 @@
 # Dark backgrounds inverse to normal colour schemes ~ colouredWeb,bright,user
 
-debug 0,--cwBlackBlack is deprecated. Use --useTheme=cwBlackBlack instead.
-useTheme cwBlackBlack
+debug 0,--cwBlackBlack is deprecated. Use --useTheme=black instead.
+useTheme black1
