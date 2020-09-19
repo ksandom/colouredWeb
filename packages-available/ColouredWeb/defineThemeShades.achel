@@ -46,4 +46,37 @@ massSet ["ColouredWeb,themeShades,cwBright"],
 	setNested ~!Me,stuff!~,highlightText,1
 	setNested ~!Me,stuff!~,highlightBackground,0.3
 
+massSet ["ColouredWeb,themeShades,grey1"],
+	setNested ~!Me,stuff!~,windowText,1
+	setNested ~!Me,stuff!~,windowBackground,0.1
+	setNested ~!Me,stuff!~,nonWriteBackground,0.3
+	setNested ~!Me,stuff!~,mediumText,0
+	setNested ~!Me,stuff!~,mediumBackground,0.5
+	setNested ~!Me,stuff!~,panelText,0.9
+	setNested ~!Me,stuff!~,panelBackground,0.2
+	setNested ~!Me,stuff!~,highlightText,0
+	setNested ~!Me,stuff!~,highlightBackground,0.8
+
+massSet ["ColouredWeb,themeShades,grey2"],
+	setNested ~!Me,stuff!~,windowText,1
+	setNested ~!Me,stuff!~,windowBackground,0.2
+	setNested ~!Me,stuff!~,nonWriteBackground,0
+	setNested ~!Me,stuff!~,mediumText,0
+	setNested ~!Me,stuff!~,mediumBackground,0.5
+	setNested ~!Me,stuff!~,panelText,0.9
+	setNested ~!Me,stuff!~,panelBackground,0.3
+	setNested ~!Me,stuff!~,highlightText,0
+	setNested ~!Me,stuff!~,highlightBackground,0.8
+
+massSet ["ColouredWeb,themeShades,grey3"],
+	setNested ~!Me,stuff!~,windowText,1
+	setNested ~!Me,stuff!~,windowBackground,0.3
+	setNested ~!Me,stuff!~,nonWriteBackground,0.1
+	setNested ~!Me,stuff!~,mediumText,0
+	setNested ~!Me,stuff!~,mediumBackground,0.5
+	setNested ~!Me,stuff!~,panelText,0.9
+	setNested ~!Me,stuff!~,panelBackground,0.2
+	setNested ~!Me,stuff!~,highlightText,0
+	setNested ~!Me,stuff!~,highlightBackground,0.8
+
 collectionSave ColouredWeb
