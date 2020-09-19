@@ -1,7 +1,7 @@
 # Install all the defaults for colouredWeb ~ install
 #onDefine registerForEvent Install,general,installColouredWeb
 
-debug 1,ColouredWeb: Installing shades
+debug 1,ColouredWeb: Installing shades.
 addShade 1
 addShade 0.9
 addShade 0.8
@@ -18,7 +18,13 @@ addShade 0
 set Tmp,home,/home/ksandom
 
 # TODO fix firefox
-detectBrowsers
+# detectBrowsers
 # addCWOutput Firefox,~!Tmp,home!~/.mozilla/firefox/s9dvaj0q.default/chrome/userContent.css
 # addCWOutput Chrome,~!Tmp,home!~/.config/google-chrome/Default/User StyleSheets/Custom.css
 # addCWOutput Opera,/usr/share/opera/styles/user.css
+
+debug 1,ColouredWeb: Define theme shades.
+defineThemeShades
+
+debug 1,ColouredWeb: Define colours.
+defineColours

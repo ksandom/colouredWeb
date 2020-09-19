@@ -1,0 +1,22 @@
+# Define the colours we want to use when generating lots of themes. ~ hidden,colours
+
+collectionLoad ColouredWeb
+
+massSet ["ColouredWeb,colours"],
+	setNested ~!Me,stuff!~,,ffffff
+	setNested ~!Me,stuff!~,,99eeff
+	setNested ~!Me,stuff!~,,99ffee
+	setNested ~!Me,stuff!~,,eeff99
+	setNested ~!Me,stuff!~,,ffee99
+	setNested ~!Me,stuff!~,,ff99ee
+	setNested ~!Me,stuff!~,,ff0000
+	setNested ~!Me,stuff!~,,00ff00
+	setNested ~!Me,stuff!~,,0000ff
+	setNested ~!Me,stuff!~,,ffff00
+	setNested ~!Me,stuff!~,,ff00ff
+	setNested ~!Me,stuff!~,,00ffff
+	setNested ~!Me,stuff!~,,ffff99
+	setNested ~!Me,stuff!~,,ff99ff
+	setNested ~!Me,stuff!~,,99ffff
+
+collectionSave ColouredWeb
