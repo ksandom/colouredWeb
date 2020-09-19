@@ -17,7 +17,7 @@ for readmeSource in $readmeSources; do
 done
 
 for app in apps/*; do
-    echo "Coping sheets to $app".
+    echo "Copying sheets to $app".
     rm -Rf "$app/sheets" "$app/previews"
     cp -R sheets previews "$app"
 done

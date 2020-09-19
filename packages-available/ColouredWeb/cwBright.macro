@@ -1,4 +1,4 @@
 # Bright backgrounds similar to normal colour schemes ~ colouredWeb,bright,user
 
-debug 0,--cwBright is deprecated. Use --useTheme=cwBright instead.
-useTheme cwBright
+debug 0,--cwBright is deprecated. Use --useTheme=bright instead.
+useTheme bright
