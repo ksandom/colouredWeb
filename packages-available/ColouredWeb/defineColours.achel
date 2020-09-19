@@ -34,5 +34,30 @@ massSet ["ColouredWeb,colours"],
 	setNested ~!Me,stuff!~,,eeff66
 	setNested ~!Me,stuff!~,,ffee66
 	setNested ~!Me,stuff!~,,ff66ee
+	setNested ~!Me,stuff!~,,9900ff
+	setNested ~!Me,stuff!~,,99ff00
+	setNested ~!Me,stuff!~,,00ff99
+	setNested ~!Me,stuff!~,,ff0099
+	setNested ~!Me,stuff!~,,ff9900
+	setNested ~!Me,stuff!~,,9933ff
+	setNested ~!Me,stuff!~,,99ff33
+	setNested ~!Me,stuff!~,,33ff99
+	setNested ~!Me,stuff!~,,ff3399
+	setNested ~!Me,stuff!~,,ff9933
+	setNested ~!Me,stuff!~,,9966ff
+	setNested ~!Me,stuff!~,,99ff66
+	setNested ~!Me,stuff!~,,66ff99
+	setNested ~!Me,stuff!~,,ff6699
+	setNested ~!Me,stuff!~,,ff9966
+	setNested ~!Me,stuff!~,,9999ff
+	setNested ~!Me,stuff!~,,99ff99
+	setNested ~!Me,stuff!~,,99ff99
+	setNested ~!Me,stuff!~,,ff9999
+	setNested ~!Me,stuff!~,,ff9999
+	setNested ~!Me,stuff!~,,99ccff
+	setNested ~!Me,stuff!~,,99ffcc
+	setNested ~!Me,stuff!~,,ccff99
+	setNested ~!Me,stuff!~,,ffcc99
+	setNested ~!Me,stuff!~,,ff99cc
 
 collectionSave ColouredWeb
