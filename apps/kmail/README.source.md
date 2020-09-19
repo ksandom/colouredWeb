@@ -26,6 +26,7 @@ KMail already does a pretty good job at re-colouring HTML emails to the system t
     ```bash
     sudo make install
     ```
+1. Create the mail filter as described below in [Install - Filter method only](#install---filter-method-only).
 
 ### Install - In-place method only
 
@@ -36,10 +37,6 @@ KMail already does a pretty good job at re-colouring HTML emails to the system t
 
 ### Install - Filter method only
 
-1. Test that it is in working order before installing.
-    ```bash
-    make test
-    ```
 1. Get the basics installed.
     ```bash
     sudo make install-filter
@@ -53,10 +50,10 @@ KMail already does a pretty good job at re-colouring HTML emails to the system t
         1. Select "Pipe Through"
         1. Enter `/usr/bin/insertSheet`
 
-
 Did it work? If you're not sure,
 
 1. Select an HTML message.
+1. Press CTRL + J. (You won't normally need to do this for new email, but this will manually trigger the filter, which is excellent for debugging whether it's working, and for applying it to old email.)
 1. Make sure it is showing HTML.
 1. If you're still not seeing a change, press "v" to view source.
 1. Click "HTML Source".
@@ -92,9 +89,15 @@ sudo make uninstall-inplace
 
 This will remove the script and the stylesheet, which will cause kmail to revert to the formatting it would have otherwise used. It will not remove the seed from the emails that have already been processed.
 
-```bash
-sudo make uninstall-filter
-```
+1. Uninstall the script and sheet.
+    ```bash
+    sudo make uninstall-filter
+    ```
+1. Remove the filter from kmail. (It will silently fail if the script isn't there, but this is nice to do to keep things clean.)
+    1. "Settings"
+    1. "Configure filters..."
+    1. Select the filter. It will look something like `<<body>>:.` and will have `Pipe Through` `/usr/bin/insertSheet` under "Filter Actions".
+    1. Click the "Delete" button below. It will looks like a red rubbish bin.
 
 ## How it works
 
