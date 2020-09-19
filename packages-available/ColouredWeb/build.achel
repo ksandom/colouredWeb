@@ -34,18 +34,18 @@ singleStringNow preview.md
 
 
 debug 0,Building sheets.
-# Loop through colours.
-retrieveResults ColouredWeb,colours
+# Loop through the themeShades
+retrieveResults ColouredWeb,themeShades
 loop
-	set Local,hexColour,~!Result,line!~
+	set Local,theme,~!Result,key!~
+	
+	useTheme ~!Local,theme!~
 	
 	isolate
-		# Loop through the themeShades
-		retrieveResults ColouredWeb,themeShades
+		# Loop through colours.
+		retrieveResults ColouredWeb,colours
 		loop
-			set Local,theme,~!Result,key!~
-			
-			useTheme ~!Local,theme!~
+			set Local,hexColour,~!Result,line!~
 			
 			# Figure out the paths.
 			set Local,fileOut,~!Local,cssDir!~/~!Local,theme!~-~!Local,hexColour!~.css
