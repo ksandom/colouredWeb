@@ -3,8 +3,8 @@
 
 . "$SHEST_SCRIPT" "--doNothing"
 
-testString="thing=3Dblah"
-expectedResult="thing=blah"
+testString="<body>thing=3Dblah</HTML>"
+expectedResult="<body>thing=blah</HTML>"
 
 FILTER_METHOD='all'
 # Piped through itself a few times, because it has to be able to be re-run non-destructively.

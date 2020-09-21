@@ -1,11 +1,23 @@
 #!/bin/bash
-# Write a decription of the test here.
+# Test that the from field doesn't get appended to the previous line.
 
 . "$SHEST_SCRIPT" "--doNothing"
 
-testString="<body>thing=
-blah</body>"
-expectedResult="<body>thingblah</body>"
+testString="wee=
+waa=
+woo=
+From: 
+<BODY>
+blah=
+ is yay
+</BODY>"
+expectedResult="wee=
+waa=
+woo=
+From: 
+<BODY>
+blah is yay
+</BODY>"
 
 FILTER_METHOD='all'
 # Piped through itself a few times, because it has to be able to be re-run non-destructively.

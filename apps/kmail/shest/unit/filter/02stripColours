@@ -3,8 +3,8 @@
 
 . "$SHEST_SCRIPT" "--doNothing"
 
-testString="<span style=\"font-family:'Calibri';font-size:11pt;color:#000000;background-color:#FFFFFF;color:#FFFFFF\"><font color=\"#a1a2a3\"  color='#a1a2a3'  color =\"#a1a2a3\"  color= \"#a1a2a3\" color = \"#a1a2a3\" bgcolor=\"#C2C3C1\" color=\"#d9213e\"><span style=\"color:white ; color:bright-blue ; color: bright-blue;background:white;color:gray\"><font color=\"#d9213e\">"
-expectedResult="<span style=\"font-family:'Calibri';font-size:11pt;;;\"><font          ><span style=\" ;  ; ;;\"><font >"
+testString="<body><span style=\"font-family:'Calibri';font-size:11pt;color:#000000;background-color:#FFFFFF;color:#FFFFFF\"><font color=\"#a1a2a3\"  color='#a1a2a3'  color =\"#a1a2a3\"  color= \"#a1a2a3\" color = \"#a1a2a3\" bgcolor=\"#C2C3C1\" color=\"#d9213e\"><span style=\"color:white ; color:bright-blue ; color: bright-blue;background:white;color:gray\"><font color=\"#d9213e\"></body>"
+expectedResult="<body><span style=\"font-family:'Calibri';font-size:11pt;;;\"><font          ><span style=\" ;  ; ;;\"><font ></body>"
 
 FILTER_METHOD='all'
 # Piped through itself a few times, because it has to be able to be re-run non-destructively.
