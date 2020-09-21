@@ -12,9 +12,6 @@ filterInsertSheet="s/<head><!-- Inserted stylesheet using kmailMessageDarkMode.*
 # As it currently is. The following not currently be undone A work around could be to replace these with non-existent attributes. Eg "color=" -> "disabledColor=". I haven't yet tested whether this will silently fail, and be fine. Or this will create more problems than it will solve.
 # color:#000000;background-color:#FFFFFF
 
-# Fix new lines so that the following patterns won't get broken and fail to match.
-fixNewLines=':a;$!{N;s/([^?])=\n([^M][^I][^M][^E])/\1\2/;ba;}'
-
 # Make bgcolor the same as color, then remove it. The first step saves duplication. 
 reduceTheStuffWeNeedToMatch="s/\\(bgcolor\\|background-color\\|background\\)/color/g"
 
@@ -73,10 +70,51 @@ case "$filterMethod" in
     ;;
 esac
 
+function doFilter
+{
+    sed "s/=3D/=/g;" | sed "$filter"
+}
+
 # Run the filter only if it is not disabled.
 if [ "$filterMethod" != 'disable' ]; then
     if [ "$shouldFixNewLines" == 'true' ]; then
-        sed "s/=3D/=/g;" | sed -E "$fixNewLines" | sed "$filter"
+        useMunger=0
+        mungeBuffer=''
+        while IFS= read -r line;do
+            if [[ "$line" =~ \<[Hh][Ee][Aa][Dd] ]] || [[ "$line" =~ \<[Bb][Oo][Dd][Yy] ]]; then
+                # Turn it on.
+                useMunger=1
+            fi
+            if [[ "$line" =~ \</[Bb][Oo][Dd][Yy] ]] || [[ "$line" =~ \</[Hh][Tt][Mm][Ll] ]]; then
+                # Turn it off after this iteration. This is to handle one-liners.
+                useMunger=2
+            fi
+            
+            if [ "$useMunger" != 0 ]; then
+                # Munge the input.
+                if [ "${line: -1}" ==  '=' ]; then
+                    mungeBuffer="${mungeBuffer}${line::-1}"
+                else
+                    mungeBuffer="${mungeBuffer}${line}\n"
+                fi
+            else
+                echo "$line"
+            fi
+            
+            
+            if [ "$useMunger" == 2 ]; then
+                # Turn off the munger now that we have finished this iteration, and send it through thefilter.
+                useMunger=0
+                echo -ne "$mungeBuffer" | doFilter
+                mungeBuffer=''
+            fi
+        done
+        
+        if [ "$mungeBuffer" != '' ]; then
+            # If we get here, there is still stuff left in the mungeBuffer, This could be that the closing tags are missing in the email. Or it could be a bug in this code.
+            echo "<!-- ColouredWeb: Munge failure 000 - begin -->$mungeBuffer<!-- ColouredWeb: Munge failure 000 - end -->" | doFilter
+            echo "<!-- ColouredWeb: Munge failure 000 - appendix -->"
+        fi
     else
         sed "$filter"
     fi
