@@ -13,7 +13,7 @@ filterInsertSheet="s/<head><!-- Inserted stylesheet using kmailMessageDarkMode.*
 # color:#000000;background-color:#FFFFFF
 
 # Fix new lines so that the following patterns won't get broken and fail to match.
-fixNewLines=':begin;$!N;s/=\n//;tbegin'
+fixNewLines=':a;$!{N;s/([^?])=\n([^M][^I][^M][^E])/\1\2/;ba;}'
 
 # Make bgcolor the same as color, then remove it. The first step saves duplication. 
 reduceTheStuffWeNeedToMatch="s/\\(bgcolor\\|background-color\\|background\\)/color/g"
@@ -76,7 +76,7 @@ esac
 # Run the filter only if it is not disabled.
 if [ "$filterMethod" != 'disable' ]; then
     if [ "$shouldFixNewLines" == 'true' ]; then
-        sed "s/=3D/=/g;" | sed "$fixNewLines" | sed "$filter"
+        sed "s/=3D/=/g;" | sed -E "$fixNewLines" | sed "$filter"
     else
         sed "$filter"
     fi

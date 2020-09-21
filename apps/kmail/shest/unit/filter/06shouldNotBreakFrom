@@ -1,0 +1,25 @@
+#!/bin/bash
+# Test that the from field doesn't get appended to the previous line.
+
+. "$SHEST_SCRIPT" "--doNothing"
+
+testString="Subject: =?UTF-8?Q?New_reply_to_a_comment_on_=E2=80=98Thing?=
+	=?UTF-8?Q?Thing=21=E2=80=99?=
+From: YouTube <noreply@youtube.com>"
+expectedResult="Subject: =?UTF-8?Q?New_reply_to_a_comment_on_=E2=80=98Thing?=
+	=?UTF-8?Q?Thing=21=E2=80=99?=
+From: YouTube <noreply@youtube.com>"
+
+FILTER_METHOD='all'
+# Piped through itself a few times, because it has to be able to be re-run non-destructively.
+result="$(echo "$testString" | ./bin/filter/insertSheet | ./bin/filter/insertSheet | ./bin/filter/insertSheet 2>&1)"
+exitCode=$?
+
+
+if [ "$exitCode" != "0" ]; then
+    fail "Got value=\"$result\" and exit code=$exitCode."
+elif [ "$result" != "$expectedResult" ]; then
+    fail "Expected \"$expectedResult\", but got \"$result\"."
+else
+    pass "Great!"
+fi
