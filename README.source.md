@@ -38,69 +38,15 @@ Here is some [interesting discussion](https://www.reddit.com/r/firefox/comments/
 
 Go in to the appropriate [apps/](https://github.com/ksandom/colouredWeb/tree/master/apps) folder and follow the instructions for that app.
 
-## Installing & using colouredWeb for development - DEVELOPERS
-
-### Install
-
-    export extraSrc="https://github.com/ksandom/colouredWeb.git"; curl https://raw.githubusercontent.com/ksandom/achel/master/supplimentary/misc/webInstall | bash
-
-### Using it
-
-This re-colours all web pages to a colour that suits me very well. It's a dark, low-saturation, greeny-blue.
-
-    $ colouredweb --colourByHex=99eeff --cwOut
-    
-      hexInput: 
-        0: 153
-        1: 238
-        2: 255
-    [debug0]: You will now need to run something like --cwOut to send this to some files.
-
-This turns off the custom formatting.
-Note that this isn't totally correct, in that it actually places syntactically incorrect CSS in place, so some glitches could be present, but I have yet to notice them. I will try to do this better in the near future.
-
-    $ colouredweb --cwOut
-    
-      Chrome: 
-        line: /home/ksandom/.config/google-chrome/Default/User StyleSheets/Custom.css
-        key: Chrome
-      Opera: 
-        line: /usr/share/opera/user.css
-        key: Opera
-
-Actually, we want to make it a dark theme
-
-    $ colouredweb --cwDark
-    $ colouredweb --colourByHex=99eeff --cwOut
-    
-      hexInput: 
-        0: 153
-        1: 238
-        2: 255
-    [debug0]: You will now need to run something like --cwOut to send this to some files.
-
-There is also `--cwBright`.
-
-[More info](https://github.com/ksandom/colouredWeb/tree/master/packages-available/ColouredWeb/docs).
-
-### How it works
-
-#### Short
-
-ColouredWeb generates a custom CSS that overrides the CSS that websites provide to make the web more useable to people who are sensitive to certain colours.
-
-#### Long
-
-Most modern browsers have the ability for the user to specify their own CSS file which can selectively override the formatting on websites. This is an excellent tool for making the web more accessible to people with specific requirements. The challenge is that there is no standard that most websites adhere to which makes it quite time consuming to make a CSS file that works everywhere.
-
-That's where this project comes in. The idea is to make everything at least useable and secondly, most things fairly pretty (prefferably in the author's original flavour, but not at the expense of this project's standards.)
-
-Chrome dropped support for this some time ago. I suggest taking a look at the [Alternatives for browsing](https://github.com/ksandom/colouredWeb#alternatives-for-browsing)
-
 ## Contributing
 
 Pull requests welcome.
 
-## Why not block ads?
+## Further reading
 
-Web developers and site owners can get passionately defensive of their website designs. It's going to be hard enough to get them to buy into a project like this that makes their site look different. Disabling ads on their sites would make it pretty much impossible since it would cut off a source of revenue for them.
+* [Documentation](https://github.com/ksandom/colouredWeb/tree/master/docs). \<-- If you want to submit new themes, or improvements etc. Start here. Some documents are:
+    * Developer material.
+    * Creating themes.
+        * Adding colours.
+        * Adding shades.
+    * Using the old legacy ColouredWeb.
