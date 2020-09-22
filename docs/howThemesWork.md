@@ -35,6 +35,7 @@ Simply
     * Make sure that it's indented with a tab, not spaces. The interpreter does not yet support space based indentation.
 * Modify it to have the colour that you desire.
     * Colours are defined using the same 3 2-byte hex values (Red, Green, and Blue) that HTML uses, but without the `#` a the beginning. I specifically went to the extra effort to do it this way so that the every-day [HTML colour pickers](https://www.w3schools.com/colors/colors_picker.asp) can be used.
+    * Make sure to use the brightest version of the colour. Otherwise contrast assumptions will be broken, which will create usability issues. If you do indeed want a darker theme, please use the [shades](#shades) to achieve it.
 * Create a [pull request](https://github.com/ksandom/colouredWeb/pulls) with the change.
 
 ## Shades
