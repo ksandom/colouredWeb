@@ -7,6 +7,8 @@ KMail already does a pretty good job at re-colouring HTML emails to the system t
 
 ![Screenshot showing different themes in action.](misc/kmailDarkExample-withLabels.png)
 
+You can read more in the [blog post](http://www.randomksandom.com/kmailBlackTheme/).
+
 ## Requirements
 
 ### User
