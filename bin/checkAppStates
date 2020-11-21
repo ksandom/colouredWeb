@@ -5,7 +5,15 @@
 . lib/stateHealth.sh
 . lib/display.sh
 
+failure=0
 for app in $(getApps); do
-    echo "$app"
-    listStateProblems "$app" | indent
+    testState "$app"
+    
+    if [ "$?" != '0' ]; then
+        failure=1
+    fi
 done
+
+if [ "$failure" == '1' ]; then
+    exit 1
+fi

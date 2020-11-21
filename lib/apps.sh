@@ -12,6 +12,14 @@ function getApps
 
 function getAppDetails
 {
+    local app="$1"
+    
+    if stateIsHealthy "$app"; then
+        stateHealthy="true"
+    else
+        stateHealthy="false"
+    fi
+    
     cd "$app"
     
     . "$STATE_DIR"/config.sh
@@ -33,6 +41,7 @@ function getAppDetails
     else
         sanitisedShouldIncludeIfPresent="false"
     fi
+    
     cd ..
 }
 
@@ -40,7 +49,7 @@ function doListApps
 {
     displayAppHeadings
     for app in $(getApps); do
-        getAppDetails
+        getAppDetails "$app"
         displayAppDetails
     done
 }

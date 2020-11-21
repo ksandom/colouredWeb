@@ -3,5 +3,6 @@
 
 . lib/apps.sh
 . lib/display.sh
+. lib/stateHealth.sh
 
 listApps
