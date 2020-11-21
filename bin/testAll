@@ -1,0 +1,5 @@
+#!/bin/bash
+# Run all types of tests.
+
+./bin/shellcheckAll
+./bin/checkAppStates

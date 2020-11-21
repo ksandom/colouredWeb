@@ -10,3 +10,10 @@ while [ "$appName" == '' ]; do
     read -rp "appName: " appName
 done
 echo "appName=$appName"
+
+mkdir -p "apps/$appName"
+cd "apps/$appName" || { echo "Invalid app name?"; exit 1; }
+
+../../bin/internal/initAppStates
+
+cp -vi ../../templates/general/* .
