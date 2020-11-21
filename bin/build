@@ -10,10 +10,12 @@ for readmeSource in $readmeSources; do
     readmeFile="$(echo "$readmeSource" | cut -d\. -f1,2).md"
     
     echo "Building ${readmeFile}".
-    echo "<!-- This file has been generated from $0. If you want to edit it, edit \"$readmeSource\" and then run $0 again. -->" > "${readmeFile}"
-    cat "$readmeSource" >> "${readmeFile}"
-    echo >> "${readmeFile}"
-    cat "preview.md" >> "${readmeFile}"
+    {
+        echo "<!-- This file has been generated from $0. If you want to edit it, edit \"$readmeSource\" and then run $0 again. -->"
+        cat "$readmeSource"
+        echo
+        cat "preview.md"
+    } > "${readmeFile}"
 done
 
 for app in apps/*; do

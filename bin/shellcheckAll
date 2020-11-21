@@ -7,6 +7,7 @@ for fileName in bin/* ;do
         shellcheck -x "$fileName"
     fi
 done
+resultNormal="$?"
 
 # Get into the first app that we can find.
 cd "$(find apps -maxdepth 1 -type d | head -n2 | tail -n1)" || { echo "Could not find an app to test."; exit 1; }
@@ -18,4 +19,8 @@ for fileName in ../../bin/internal/* ;do
         shellcheck -x "$fileName"
     fi
 done
+resultInternal="$?"
 
+if [ "$resultNormal" != "0" ] || [ "$resultInternal" != "0" ]; then
+    exit 1
+fi
