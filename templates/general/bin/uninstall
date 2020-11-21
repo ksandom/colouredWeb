@@ -1,0 +1,7 @@
+#!/bin/bash
+# Run all types of tests.
+
+. ../../lib/install.sh
+
+# TODO Remove this line when this has been filled out.
+uninstall_appendToFile "/usr/lib/appName/blah/style.css" "$1"

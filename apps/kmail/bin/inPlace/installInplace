@@ -1,27 +1,14 @@
 #!/bin/bash
 # Install a specified stylesheet in-place for use by kmail.
 
-if [ "$1" == '' ]; then
-    sheetFile="sheets/cwBlackBlack-ffffff.css"
-else
-    sheetFile="$1"
-fi
+. ../../lib/install.sh
+. ../../lib/display.sh
 
 for theme in /usr/share/messageviewer/defaultthemes/*; do
     if [ -e "$theme/style.css" ]; then
-        echo "Installing $sheetFile into $theme ."
+        echo "Installing into $theme ."
         
-        # Make sure we have a backup of the original.
-        if [ ! -e "$theme/style-original.css" ]; then
-            echo "  Backup original CSS in $theme."
-            cp "$theme/style.css" "$theme/style-original.css"
-        fi
-        
-        # Copy the sheet.
-        cp "$sheetFile" "$theme/custom.css"
-        
-        # Combine the two stylesheets.
-        cat "$theme/style-original.css" "$theme/custom.css" > "$theme/style.css"
+        install_appendToFile "$theme/style.css" "$1" | indent
     else
         echo "No css in $theme ."
     fi

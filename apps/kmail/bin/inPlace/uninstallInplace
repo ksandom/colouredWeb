@@ -1,16 +1,13 @@
 #!/bin/bash
-# Install in-place.
-if [ "$1" == '' ]; then
-    sheetFile="sheets/cwDark-ffffff.css"
-else
-    sheetFile="$1"
-fi
+# Uninstall in-place.
+
+. ../../lib/install.sh
+. ../../lib/display.sh
 
 for theme in /usr/share/messageviewer/defaultthemes/*; do
     if [ -e "$theme/style-original.css" ]; then
         echo "Uninstalling from $theme ."
-        cp "$theme/style-original.css" "$theme/style.css"
-        rm "$theme/style-original.css" "$theme/custom.css"
+        uninstall_appendToFile "$theme/style.css" | indent
     else
         echo "Not installed in $theme ."
     fi
