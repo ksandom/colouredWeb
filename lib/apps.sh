@@ -1,3 +1,6 @@
+export STATE_DIR="${STATE_DIR:-appState}"
+
+dirName="appState"
 separator="	"
 sep="$separator"
 col="---${sep}"
@@ -35,31 +38,14 @@ function getAppDetails
 
 function doListApps
 {
-    display_appHeadings
+    displayAppHeadings
     for app in $(getApps); do
         getAppDetails
-        display_appDetails
+        displayAppDetails
     done
 }
 
 function listApps
 {
     doListApps | formatOutput
-}
-
-function formatOutput
-{
-    column -ts "$sep"
-}
-
-
-function display_appHeadings
-{
-    echo "Name${sep}Description${sep}Path${sep}Installed${sep}cwInstalled${sep}Include?"
-    echo "---$col$col$col$col$col$col"
-}
-
-function display_appDetails
-{
-    echo "${appName}${sep}${appDescription}${sep}${app}${sep}${appInstalled}${sep}${cwInstalled}${sep}${sanitisedShouldIncludeIfPresent}"
 }

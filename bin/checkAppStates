@@ -1,13 +1,11 @@
 #!/bin/bash
 # Copy the default app detection scripts into place.
 
-dirName="appState"
+. lib/apps.sh
+. lib/stateHealth.sh
+. lib/display.sh
 
-for app in apps/*; do
+for app in $(getApps); do
     echo "$app"
-    for state in "$app/appState"/*; do
-        if grep -q '# TODO Remove this line when this has been filled out.' "$state"; then
-            echo "  $state is incomplete."
-        fi
-    done
+    listStateProblems "$app" | indent
 done

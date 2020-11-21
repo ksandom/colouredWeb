@@ -1,8 +1,7 @@
 #!/bin/bash
 # List apps and their states.
 
-export STATE_DIR="${STATE_DIR:-appState}"
-
 . lib/apps.sh
+. lib/display.sh
 
 listApps

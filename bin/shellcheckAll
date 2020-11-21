@@ -1,0 +1,21 @@
+#!/bin/bash
+# Run shellcheck over everything.
+
+# Test all the normal user-facing scripts.
+for fileName in bin/* ;do
+    if [ ! -d "$fileName" ]; then
+        shellcheck -x "$fileName"
+    fi
+done
+
+# Get into the first app that we can find.
+cd "$(find apps -maxdepth 1 -type d | head -n2 | tail -n1)" || { echo "Could not find an app to test."; exit 1; }
+
+# Test the scripts that are intended to be run from an app home.
+#ls ../../bin/internal | xargs -n 1 shellcheck -x
+for fileName in ../../bin/internal/* ;do
+    if [ ! -d "$fileName" ]; then
+        shellcheck -x "$fileName"
+    fi
+done
+

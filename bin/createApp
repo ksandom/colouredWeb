@@ -1,0 +1,12 @@
+#!/bin/bash
+# Create the foundations for supporting a new app.
+
+. lib/apps.sh
+. lib/display.sh
+
+appName="$1"
+
+while [ "$appName" == '' ]; do
+    read -rp "appName: " appName
+done
+echo "appName=$appName"

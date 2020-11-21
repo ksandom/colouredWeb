@@ -1,7 +1,7 @@
 #!/bin/bash
 # Copy the default app detection scripts into place.
 
-dirName="appState"
+. ../../lib/apps.sh
 
-mkdir -p appState
+mkdir -p "$dirName"
 cp -iv ../../templates/appStates/* "$dirName"
