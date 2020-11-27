@@ -1,0 +1,6 @@
+#!/bin/bash
+# Run all types of tests.
+
+. ../../lib/install.sh
+
+install_placeFile ~/Documents/colouredWeb/custom.css "$1"
