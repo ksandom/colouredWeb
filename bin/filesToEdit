@@ -1,0 +1,7 @@
+#!/bin/bash
+# Lists the files remaining to be edited in a format that can be loaded into your favourite editor.
+#
+# Eg kate `./bin/filesToEdit`
+
+
+echo $(./bin/checkAppStates | grep '^  ' | grep -v '^  ./bin/build' | sed 's/^  //g; s/ .*$//g')

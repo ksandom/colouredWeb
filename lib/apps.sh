@@ -23,6 +23,7 @@ function getAppDetails
     cd "$app"
     
     . "$STATE_DIR"/config.sh
+    [ -e "$STATE_DIR"/overrides.sh ] && . "$STATE_DIR"/overrides.sh
     
     if "$STATE_DIR"/appInstalled.sh; then
         appInstalled="true"

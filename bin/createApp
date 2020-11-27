@@ -6,14 +6,29 @@
 
 appName="$1"
 
-while [ "$appName" == '' ]; do
+function checkAppName
+{
+    local nameToCheck="$1"
+    
+    if [ "$nameToCheck" == '' ]; then
+        echo "Empty. Please enter a name. Or press CTRL+C to abort." >&2
+        return 1
+    elif [[ $nameToCheck =~ [\ ] ]]; then
+        echo "Must not contain a space." >&2
+        return 1
+    else
+        echo "appName=\"$appName\""
+        return 0
+    fi
+}
+
+while ! checkAppName "$appName"; do
     read -rp "appName: " appName
 done
-echo "appName=$appName"
 
 mkdir -p "apps/$appName"
 cd "apps/$appName" || { echo "Invalid app name?"; exit 1; }
 
 ../../bin/internal/initAppStates
 
-cp -vi ../../templates/general/* .
+cp -Rvi ../../templates/general/* .
