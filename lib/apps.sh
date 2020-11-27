@@ -42,7 +42,7 @@ function getAppDetails
         sanitisedShouldIncludeIfPresent="false"
     fi
     
-    cd ..
+    cd ../..
 }
 
 function doListApps

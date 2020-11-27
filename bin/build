@@ -1,6 +1,6 @@
 #!/bin/bash
 
-readmeSources="./README.source.md ./apps/kmail/README.source.md"
+readmeSources="./README.source.md $(ls ./apps/*/README.source.md)"
 
 mkdir -p sheets previews
 

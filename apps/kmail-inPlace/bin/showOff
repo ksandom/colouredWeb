@@ -1,0 +1,10 @@
+#!/bin/bash
+# Install each stylesheet for use by kmail, in a loop with 1 second gap. This is mainly for testing, but also showing off it working.
+
+while true; do
+    for sheet in $(ls -1 sheets/* | sort -R); do
+        ./bin/installSheet "$sheet"
+        sleep 1
+    done
+    sleep 1
+done
