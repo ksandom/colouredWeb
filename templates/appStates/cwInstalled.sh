@@ -4,7 +4,7 @@
 # TODO Remove this line when this has been filled out.
 
 export STATE_DIR="${STATE_DIR:-appState}"
-if [ -e /var/lib/exampleApp/cw.css ]; then
+if [ -e "$($STATE_DIR/cwCSSPath.sh)" ]; then
     exit 0
 else
     exit 1

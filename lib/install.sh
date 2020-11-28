@@ -1,4 +1,4 @@
-defaultStyleSheet="sheets/cwBlackBlack-ffffff.css"
+defaultStyleSheet="sheets/black1-ffffff.css"
 
 function figureOutStyleSheet
 {
@@ -41,4 +41,71 @@ function uninstall_appendToFile
         cp "$backup" "$destination"
         rm "$backup"
     fi
+}
+
+function install_placeFile
+{
+    local destination="$1"
+    local styleSheet="$(figureOutStyleSheet "$2")"
+    local dirOnly="$(dirname "$destination")"
+    local infoFile="$dirOnly/colouredWeb.info"
+    
+    # We only want to completely replace a file if it was original ours. Otherwise we should back it up.
+    if [ -e "$infoFile" ]; then
+        . "$infoFile"
+    else
+        if [ -d "$dirOnly" ]; then
+            dirAlreadyExists="true"
+        else
+            dirAlreadyExists="false"
+        fi
+        
+        if [ -e "$destination" ]; then
+            fileAlreadyExists="true"
+            cp "$destination" "${destination}.original"
+        else
+            fileAlreadyExists="false"
+        fi
+        
+        # Write the info file.
+        mkdir -p "$dirOnly"
+        {
+            echo "dirAlreadyExists=\"$dirAlreadyExists\""
+            echo "fileAlreadyExists=\"$fileAlreadyExists\""
+        } > "$infoFile"
+    fi
+    
+    cp "$styleSheet" "$destination"
+}
+
+function uninstall_placeFile
+{
+    local destination="$1"
+    local dirOnly="$(dirname "$destination")"
+    local infoFile="$dirOnly/colouredWeb.info"
+
+    if [ -e "$infoFile" ]; then
+        . "$infoFile"
+        
+        # Remove the file that we placed.
+        rm -f "$destination"
+        
+        # Restore the original file if applicable.
+        if [ -e "${destination}.original" ]; then
+            mv "${destination}.original" "$destination"
+        fi
+        
+        # Remove info file.
+        rm "$infoFile"
+        
+        # Remove the directory if applicable.
+        if [ "$(ls "$dirOnly" | wc -l)" == "0" ]; then
+            rmdir "$dirOnly"
+        else
+            echo "There is still something in \"$dirOnly\". Therefore leaving the directory in place."
+        fi
+    else
+        echo "No uninstallation necessary in "$dirOnly""
+    fi
+
 }

@@ -1,0 +1,2186 @@
+/* (c) Copyright Kevin Sandom 2020
+ * Licensed under the GPLv3. See LICENSE for details. https://github.com/ksandom/colouredWeb/blob/master/LICENSE
+ *
+ * This file is generated from: https://github.com/ksandom/colouredWeb/blob/master/packages-available/ColouredWeb/cwGeneric.template
+ * using ColouredWeb, which is available at
+ *
+ * https://github.com/ksandom/colouredWeb
+ *
+ * There are also lots, and lots of other cool themed stylesheets, like this one, there as well.
+ *
+ *
+ * window text: #33FFEE
+ * window background: #000000
+ * non-write background: #051917
+ * medium text: #000000
+ * medium background: #197F77
+ * panel text: #2DE5D6
+ * panel background: #0A332F
+ * highlight text: #000000
+ * highlight background: #28CCBE
+ */
+
+.headerbox { /* Kmail header box with to and from address in it. */
+	color: #2DE5D6
+	background-color: #0A332F
+}
+
+.Bu { /* Gmail: Email view */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.G3.G2 { /* Gmail: Email view */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.ajz { /* Gmail: Email view */
+	opacity: 0.2;
+}
+
+.im { /* Gmail: Email quoted area view */
+	color: #197F77 !important;
+}
+
+.il { /* Gmail: Search highlighted text */
+	color: #000000 !important;
+	background-color: #28CCBE !important;
+}
+
+.hP { /* Gmail: Title */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.gD { /* Gmail: Adressee */
+	color: #197F77 !important;
+}
+
+.g2 { /* Gmail: Extra Adressees */
+	color: #197F77 !important;
+}
+
+.go { /* Gmail: Extra Adressees */
+	color: #005050 !important;
+}
+
+.hb { /* Gmail: labels */
+	color: #005050 !important;
+}
+
+.ams { /* Gmail: reply field text (eg Reply, Reply to all, or Forward) */
+	color: #197F77 !important;
+}
+
+.amn { /* Gmail: reply field text Click here to */
+	color: #005050 !important;
+}
+
+
+.J-Ke.n0 { /* Gmail: Folders */
+	color: #33FFEE !important;
+}
+
+
+.J-J5-Ji { /* Gmail: Generic background for buttons and stuff */
+	opacity: 0.5 !important;
+}
+
+.aC3 { /* Gmail: Uknown big block of white */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #000000 !important;
+}
+
+.azX { /* Gmail: Uknown big block of white */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #000000 !important;
+}
+
+.T-I.J-J5-Ji.T-I-Js-IF.aaq.T-I-ax7.L3 { /* Gmail: Reply button */
+	opacity: 1 !important;
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #000000 !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.T-I.J-J5-Ji.T-I-Js-Gs.aap.T-I-awG.T-I-ax7.L3 { /* Gmail: Reply button - options */
+	opacity: 1 !important;
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #000000 !important;
+	
+	border-color: #33FFEE !important;
+}
+
+
+.T-I.J-J5-Ji.T-I-KE.L3.T-I-JO { /* Gmail: Compose button */
+	opacity: 1 !important;
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #000000 !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.T-I.J-J5-Ji.T-I-KE.L3.T-I-JO { /* Gmail: Compose button */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #000000 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.au { /* Gmail: Label/folder */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #000000 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.av { /* Gmail: Label/folder */
+	color: #000000 !important;
+}
+
+.akh.J-J5-Ji.J-JN-I.J-JN-I-JO  { /* Gmail: "Mail" title */
+	background-image: none !important;
+	background-color: transparent !important;
+	color: #33FFEE !important;
+}
+
+.nr { /* Gmail: Text entry. Eg subject */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.Am.aO9.Al.editable.LW-avf { /* Gmail: Composer. Message body. */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.Am.Al.editable.LW-avf { /* Gmail: Inline composer. Message body. */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.wG.J-Z-I.J-J5-Ji.T-I-ax7 { /* Gmail: Toolbar button */
+	opacity: 1 !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.wG.J-Z-I { /* Gmail: Toolbar button */
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.aDb.J-Z-I.J-J5-Ji.T-I-ax7 { /* Gmail: Toolbar button. Specifically the + */
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.gbqfb  { /* Gmail: Search button. */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+/* .nH.fY */
+.nH.fY { /* Gmail: Tab bar container */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.nH { /* Gmail: Tab bar container */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.f1 { /* Gmail: Available tab */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.fZ { /* Gmail: Current tab */
+	/* TODO 
+	 * debug .v.fZ.f0
+	 * debug foreground */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.nH.r4 { /* Gmail: Settings container */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.f2 { /* Gmail: Settings area */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.dt { /* Gmail: Settings area */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+
+.qL { /* Gmail: Settings text area */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.cf { /* Gmail: Toolbar Area */
+	background-image: none !important;
+	background-color: transparent !important;
+	color: #33FFEE !important;
+}
+
+.J-Z { /* Gmail: Toolbar */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+}
+
+.e4 { /* Gmail: Toolbar selected item*/
+	background-color: #33FFEE !important;
+	color: #33FFEE !important;
+}
+
+.fN { /* Gmail: Composer area */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+.Ar.Au { /* Gmail: Composer area surround */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.nH { /* Gmail: Inbox container */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.yW { /* Gmail: Inbox from field */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+.pG { /* Gmail: Inbox important field container*/
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+.WA.xY { /* Gmail: Inbox important field container*/
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+.pH-A7 { /* Gmail: Inbox important field*/
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+.pH { /* Gmail: Inbox important field*/
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+.UW { /* Gmail: Inbox important field stray*/
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+.T-Jo-auh { /* Gmail: Inbox checked field */
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+}
+
+.zA.zE { /* Gmail: Inbox item - unread */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.zA.y0 { /* Gmail: Inbox item - read */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.DVI7hd { /* Gmail: Inbox unread container */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: green !important;
+}
+
+.yP { /* Gmail: Inbox item sender */
+	background-image: none !important;
+	background-color: black !important;
+	color: #197F77 !important;
+}
+
+.y6 { /* Gmail: Inbox item subject */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.y2 { /* Gmail: Inbox item text preview */
+	background-image: none !important;
+	background-color: black !important;
+	color: #197F77 !important;
+}
+
+.xY { /* Gmail: Inbox item */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-color: #051917 !important;
+}
+
+.ajn { /* Gmail: Avatar */
+	/* This is to reduce the glare of unwanted colours. */
+	opacity: 0.3 !important;
+}
+
+.mqDisabled { /* Gmail: A misc background */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+.T-I.J-J5-Ji.L3.T-I-JW.T-I-ax7.T-I-JO { /* Gmail: Text entry. Eg subject */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.gbqfqw { /* Gmail: Search box */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.ata-asE{ /* Gmail: Notification - new email */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	
+	border-style:solid !important;
+	border-width:1px !important;
+	border-color:#33FFEE !important;
+}
+
+.gbqfif { /* Gmail: Search box contents */
+	color: #33FFEE !important;
+}
+
+.gbes { /* Google top toolbar */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+.gbes { /* Google top toolbar */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+#gbx1 { /* Google search bar container? */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+}
+
+#gbgs3 { /* Google share button (g+) */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+}
+
+.ab_button { /* Google button. At least used for settings */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+}
+
+.gbzt { /* Google top toolbar - inactive item */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+.gbgt.gbes { /* Google top toolbar - share (outside) */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+.gbgs3 { /* Google top toolbar - share (inside) */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+.gbg1t { /* Google top toolbar - notifications */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+.gbgt.gbg4p.gbes { /* Google top toolbar - avatar */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+#gbqlt { /* Gmail: Company logo */
+	background-color: none !important;
+	color: #33FFEE !important;
+}
+
+#gbqlt.tbody.tr {
+	background-color: none !important;
+}
+
+#Email { /* Gmail: Text entry. Eg subject */
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+#Password { /* Gmail: Text entry. Eg subject */
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+
+
+/* Site: Youtube.com */
+.yt-uix-subscription-button.yt-can-buffer.yt-uix-button.yt-uix-button-subscribe-unbranded.yt-uix-button-size-default.yt-uix-button-has-icon { /* youtube: button wrapper */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+.yt-uix-subscription-button.yt-can-buffer.yt-uix-button.yt-uix-button-size-default.yt-uix-button-has-icon.yt-is-buffered.yt-uix-button-subscribed-branded.hover-enabled { /* youtube: subscribe button wrapper on the video page */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+.yt-uix-subscription-preferences-button.yt-uix-button.yt-uix-button-default.yt-uix-button-size-default.yt-uix-button-has-icon.yt-uix-button-empty { /* youtube: subscribe button gear wrapper on the video page */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+.subscribe-label { /* youtube; subscribe button */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+}
+
+.subscribed-label { /* youtube; subscribed button */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+}
+
+.unsubscribe-label { /* youtube; unsubscribe button */
+	background-image: none !important;
+	background-color: #197F77 !important;
+	color: #33FFEE !important;
+}
+
+.SQb.MJa { /* youtube: like button */
+	background-color: #197F77 !important;
+	border-color: #33FFEE !important;
+}
+
+.RQb.LJa { /* youtube: dislike button */
+	background-color: #197F77 !important;
+	border-color: #33FFEE !important;
+}
+
+.Ub.TD { /* youtube: reply comment label */
+	color: #000000 !important;
+	background-color: #28CCBE !important;
+	border-color: #000000 !important;
+}
+
+
+
+/* Site: Google calendar */
+.cF { /* Gmail: Email view */
+	background-image: none !important;
+	background-color: #051917 !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+
+
+/* Site: Google forms */
+.ss-form-container { /* Google forms: container */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.ss-top-of-page { /* Google forms: form _____??? */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.ss-container  { /* Google forms: reciept container */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.ss-resp-card  { /* Google forms:  */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+
+.Ya-sc-Mb.ZxHcNb { /* Google hangouts: bottom area */
+	background-color: none !important;
+
+}
+
+
+/* Wikipedia */
+.selected { /* Wikipedia: tab */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+/* TODO There must be a better way than overriding individual IDs on wikipedia! */
+
+#ca-talk { /* Wikipedia: talk tab */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#ca-edit { /* Wikipedia: talk tab */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#ca-history { /* Wikipedia: talk tab */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.markdown-body { /* Github: Markdown background */
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+.normal-comment-header {
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.clearfix.announce.instapaper_body.md { /* Github: markdown Area */
+	background-color: #33FFEE !important;
+	color: black !important;
+}
+
+.name { /* Github: name of an area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.icon { /* Github: content area. Generic? */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.age { /* Github: content area. Generic? */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.message { /* Github: content area. Generic? */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.box-body { /* Guthub: repo list */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.commit-link { /* Github: Highlighted commit link */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.css-truncate.css-truncate-target.branch-link {
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.header.header-logged-in.true {
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.container.clearfix {
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.js-selected-navigation-item  { /* Github: menubar item */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.modal-backdrop { /* Github: Background shading for when something is in focus */
+	opacity: 0.7 !important;
+}
+
+.select-menu-header { /* Github: Menu header */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.minibutton.select-menu-button.with-gravatar.js-menu-target { /* Github: Company selector */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.repo-list-item.css-truncate { /* Github: repo list item */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.final-path { /* Github: The last part of the path when viewing the contents of a file. */
+	color: #000000 !important;
+	background-color: #28CCBE !important;
+}
+
+
+
+
+/* Prelude */
+.table_row_even { /* Prelude: output */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.table_row_odd { /* Prelude: output */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.filter_popup { /* Prelude: table heading */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-bottom-style: solid !important;
+	border-color: #33FFEE !important;
+	border-width:1px !important;
+}
+
+#menu { /* Prelude: menu area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#timeline { /* Prelude: time filtering */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#message_list_nav { /* Prelude: message navigation */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.message_summary { /* Prelude: information table */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+fieldset { /* Prelude: information page */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.menu_item_inactive { /* Prelude: inactive menuitem */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.menu_item_active { /* Prelude: active menuitem */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.topmenu { /* Prelude: top menu area */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+
+.topmenu_item_inactive { /* Prelude: inactive menuitem */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.topmenu_item_active { /* Prelude: active menuitem */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+#top_view_header { /* Prelude: Top view */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.popup_menu { /* Prelude: Popup menu*/
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+
+
+
+
+/*Facebook*/
+#leftCol { /* Facebook: content area. Generic? */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+#contentCol { /* Facebook: content area. Generic? */
+	background-color: #000000 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#blueBar { /* Facebook: The top bar with logo and menus */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+#pageLogo { /* Facebook: Make the logo fit with the color scheme */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.wrap { /* Facebook: Input box */
+	background-color: black !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.item.clearfix { /* Facebook: Menu selected item */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.item.clearfix.sortableItem { /* Facebook: Menu item */
+	background-color: black !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.UFIRow.UFILikeSentence.UFIFirstComponent.UFIUnseenItem { /* Facebook: Likes */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIAddComment.UFILastComponent { /* Facebook: Comment box */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.userContent { /* Facebook: User content */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.shareRedesignText { /* Facebook: User context text which has come in from an external source.*/
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.clearfix.shareRedesignContainer { /* Facebook: User content - external content.*/
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.caption { /* Facebook: User content - external content - caption. */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-style: none !important;
+}
+
+.mts.uiAttachmentDesc.translationEligibleUserAttachmentMessage { /* Facebook: User content - external content - external text */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-style: none !important;
+}
+
+
+.UFIRow { /* Facebook: User content - share.*/
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFILikeSentence.UFIFirstComponent { /* Facebook: Likes */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIPagerRow.UFIFirstCommentComponent { /* Facebook: Hidden comments */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIComment { /* Facebook: First expanded comment */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.UFIReplyList { /* Facebook: Replies*/
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.UFIRow.UFIReplySocialSentenceRow { /* Facebook: Replies*/
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+.rhc.photoUfiContainer.pinnedUfi { /* Facebook: Photo view.*/
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.jewelFlyout.fbJewelFlyout.uiToggleFlyout { /* Facebook: dropdown (eg settings) menu surround */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.uiHeader.uiHeaderBottomBorder.jewelHeader { /* Facebook: dropdown (eg notifications) menu header */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.seeMore { /* Facebook: dropdown (eg notifications) menu footer (see all) */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.navigation { /* Facebook: dropdown menu */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.navSubmenu { /* Facebook: dropdown menu item */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #051917 !important;
+}
+
+.menuDivider { /* Facebook: dropdown menu horizontal line */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.messagesContent { /* Facebook: dropdown menu item - eg notifications */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.objectListItem { /* Facebook: dropdown menu item - eg messages */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.uiButton { /* Facebook: Button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.fbChatSidebar.fixed_always { /* Facebook: Chat - maximized */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.fbNubButton { /* Facebook: Chat - minimized */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.clearfix.fbNubFlyoutTitlebar { /* Facebook: Chat - Title */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.clearfix.fbNubFlyoutTitlebar { /* Facebook: Chat - Title text */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.fbNubFlyoutBody.scrollable { /* Facebook: Chat - Friends */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.mhs.mbs.pts.fbChatConvItem._50dw.clearfix.small { /* Facebook: Chat - Typing */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color:#197F77 !important;
+}
+
+.fbNubFlyoutFooter.hasEmoticonsRight { /* Facebook: Chat - Typing Entry */
+	background-color: black !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+._510g.typing { /* Facebook: Chat - Typing */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+._510f { /* Facebook: Chat - Sent ____ ago */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+/* Facebook stuff for viewing pictures */
+.spotlight { /* Facebook: The actual image. */
+	background-color: blue !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.stage { /* Facebook: Contains the image and the tags */
+	background-color: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+	opacity:1 !important;
+}
+
+.fbPhotosPhotoTagboxes.tagContainer { /* Facebook: Tag container. This definitely needs to have no background color. */
+	background-color: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+	/* Changing the opacity here completely influences the problem, but at the expense of the tags. I've removed the backgrounds of everything I can find that would be influenced by the opacity of this div, but I must have missed something.
+	
+	
+	An interesting side effect is that it dims the photo in a way that could be useful. Considering this isn't a global thing it probably shouldn't be relied on. But it's interesting to think about. */
+	opacity:0.5 !important;
+}
+
+.tagsWrapper { /* Facebook: Tag ... thing?. This definitely needs to have no background color. */
+	background-color: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.fbPhotosPhotoTagboxBase.tagBox { /* Facebook: Tag ... thing?. This definitely needs to have no background color. */
+	background-color: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.fbPho-toSnowliftFullScreen.fullScreenSwitch  { /* Facebook: Experimentation 1 */
+	background-color: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.stageWrapper.lfloat  { /* Facebook: Experimentation 1 */
+	background-color: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+	opacity:1 !important;
+}
+
+._n8._3qx.fbPhotoSnowlift.fbxPhoto.uiLayer.fullScreenAvailable._3qw._1qp5.pagingReady { /* Facebook: Full screen container */
+	background-color: none !important;
+}
+
+._n9 { /* Facebook: Full screen container */
+	background-color: none !important;
+}
+
+
+
+
+
+.page { /* Pagerduty: incident list - container for all the panels */
+	background-color: black !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.content { /* Pagerduty: incident list - container for the main panels */
+	background-color: black !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.section { /* Pagerduty: incident list - container for the main panels */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.page-header { /* Pagerduty: incident list - heading area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+
+.sidebar { /* Pagerduty: incident list - side bar */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.fill { /* Pagerduty: incident list - top menu bar */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.active { /* Pagerduty: incident list - top menu bar */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #000000 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.incident-nav { /* Pagerduty: incident list - incident area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.ui-state-default { /* Pagerduty: incident list - table headings */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.condensed-table { /* Pagerduty: incident list - table of incidents */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.ui-toolbar { /* Pagerduty: incident list - table of incidents */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.btn { /* Pagerduty: incident list - button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.paginate_button { /* Pagerduty: incident list - button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.odd { /* Pagerduty: incident list - item - odd */
+	background-color: black !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.even { /* Pagerduty: incident list - item - even */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.dataTables_empty { /* Pagerduty: incident list - table of incidents */
+	background-color: black !important;
+	background-image: none !important;
+	color: #197F77 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.service { /* Pagerduty: incident list - table of incidents - colum*/
+	background-color: black !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.incident { /* Pagerduty: incident list - table of incidents- colum */
+	background-color: black !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.time { /* Pagerduty: incident list - table of incidents - colum */
+	background-color: black !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.activity { /* Pagerduty: incident list - table of incidents - colum */
+	background-color: black !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.pd-item-header { /* Pagerduty: area header */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #2DE5D6 !important;
+	
+	border-color: #2DE5D6 !important;
+}
+
+.pd-escalation-policy-tag { /* Pagerduty: a button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.action { /* Pagerduty: dropdown item */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.dropdown-menu { /* Pagerduty: dropdown menu area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.select2-choice { /* Pagerduty: dropdown intial state */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.numeric { /* Pagerduty: html dropdown */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+
+
+
+/* Zabix */
+.hosts { /* Zabbix: Hosts background area */
+	background-color: #33FFEE !important;
+	color: black !important;
+	
+	border-color: #197F77 !important;
+}
+
+.box_on { /* Zabbix: Graph overlay */
+	background-color: none !important;
+	color: #33FFEE !important;
+	opacity: 0 !important;
+	
+	border-color: #197F77 !important;
+}
+
+.information { /* Zabbix: User feedback */
+	background-color: #103310 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.warning { /* Zabbix: User feedback */
+	background-color: #333310 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.average { /* Zabbix: User feedback */
+	background-color: #331010 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.high { /* Zabbix: User feedback */
+	background-color: #661010 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.disaster { /* Zabbix: User feedback */
+	background-color: #771010 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+
+
+
+
+
+
+
+/* Generic */
+.highlight_disabled { /* highlighted text */
+	background-color: #28CCBE !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.content { /* content area. Generic? */
+	background-color: #000000 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+
+
+
+
+
+/* Onelogin */
+.box_top { /* onelogin: boxed content - top */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+.box_background { /* onelogin: boxed content */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+.box_bottom { /* onelogin: boxed content - bottom */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+.buttonbar { /* onelogin: button bar */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+.bodybg { /* onelogin: body background */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.submenu { /* onelogin: submenu bar */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.current { /* onelogin: selected tab */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+
+
+
+/* Jira */
+.project-item { /* jira: content area. Generic? */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.toolbar-item { /* jira: buttons on the toolbar */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.active { /* jira: selected thing */
+	border-color: #33FFEE !important;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.toolbar-trigger { /* jira: toolbar item */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #2DE5D6 !important;
+	
+	border-color: #33FFEE !important;
+	border-style: solid;
+}
+
+.tabs.horizontal {
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	/* TODO Finish this! */
+	
+
+}
+
+.tabwrap>.tabs.horizontal>li.active>a,.tabwrap>.tabs.horizontal>li.active>strong{
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+
+.tabwrap {
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#all-tabpanel { /* jira: all button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#comment-tabpanel { /* jira: comment button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#worklog-tabpanel { /* jira: log button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#changehistory-tabpanel { /* jira: history button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#activity-stream-issue-tab { /* jira: acivit button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#transitions-summary-tabpanel { /* jira: transactions button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#dvcs-commits-tabpanel { /* jira: commitsmass --today button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+
+.aui-button { /* jira: comment button on the details area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.ops  { /* jira: dropdown thing */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+/* AWS */
+
+#nav-bar { /* navigation bar. At least used in the support center */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#header { /* TODO work out what this is and if it's needed */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #2DE5D6 !important;
+}
+
+.subnav { /* Remove the gray shade under the search box in the support center */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #2DE5D6 !important;
+}
+
+#nav-search-in-content { /* "AWS product information" dropdown in search bar */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#gtl-sign-up { /* Sign up button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.signUpBtn { /* Sign up button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#status { /* Support case status dropdown box */
+	border-color: #33FFEE !important; /* TODO Fix this. It should be a more appropriate code. */
+}
+
+.empty { /* AWS: Table header */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.sortable { /* AWS: Table header */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.nav-elt { /* AWS: Top menu bar */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.nav-menu-separator { /* AWS: Menu bar separator */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+#nav-shortcutBar { /* AWS: Fills the gap in the menu bar */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.tm-both { /* AWS: Container for top menu bar */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.grey { /* AWS: use in button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+.blue { /* AWS: use in button */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+
+/* Zend */
+.classname { /* Zend:  */
+	background-color: black !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+
+
+/* Pingdom */
+#area { /* Pingdom: The main content container */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+#fade { /* Pingdom: Fade area on the bottom */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+#content { /* Pingdom: The center container */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+#page { /* Pingdom: The main content */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+#footer { /* Pingdom: The main content */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+.box { /* Pingdom: Boxed winow area */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #33FFEE !important;
+}
+
+.left { /* Pingdom: left option */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #2DE5D6 !important;
+}
+
+.right { /* Pingdom: right option */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #2DE5D6 !important;
+}
+
+.checked { /* Pingdom: selected option */
+	border-color: #2DE5D6 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+.ui-slider-handle { /* Pingdom: slider */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	border-color: #000000 !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+
+/* stackoverflow */
+.comment-user.owner { /* stackoverflow: comment owner */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+}
+
+.post-tag { /* stackoverflow: tag */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #051917 !important;
+}
+
+
+
+/* hipchat */
+.atTag { /* hipchat: When someone references someone by name */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #000000 !important;
+	
+	border-color: #051917 !important;
+}
+
+.atTagMe { /* hipchat: When someone references you by name */
+	background-color: #28CCBE !important;
+	background-image: none !important;
+	color: #000000 !important;
+	
+	border-color: #051917 !important;
+}
+
+.dateDivider { /* hipchat: The gap compacting lots of time */
+	background-color: #051917 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.tabs.li { /* hipchat: The context switcher on the left hand side */
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.open { /* hipchat: The context switcher on the left hand side */
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+	
+	text-overflow: none;
+}
+
+.alert { /* hipchat: The context switcher on the left hand side */
+	background-color: #28CCBE !important;
+	background-image: none !important;
+	color: #000000 !important;
+	
+	border-color: #33FFEE !important;
+}
+
+.top_bar_private { /* hipchat: There is a bar at the top of the page. I don't know what it does. */
+	background-color: #0A332F !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+/* php.net */
+#layout_2 { /* php.net: unclaimed left area */
+	background-image: none !important;
+}
+
+
+/* redis.io */
+.command { /* redis.io: tile-command */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+.summary { /* redis.io: tile-summary */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+
+
+/* Generic */
+nav { /* navigation bar */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #2DE5D6 !important;
+	
+	border-color: #197F77 !important;
+}
+
+header { /* page header */
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #2DE5D6 !important;
+	
+	border-color: #197F77 !important;
+}
+
+li { /* list item */
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+.main-content { /* Misc */
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+
+div { /* Div area */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+pre { /* Pre-formatted text */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+a  { /* Link */
+	color: #33FFEE !important;
+}
+
+thead { /* Table Heading */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+th { /* Table Heading */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+td { /* Table cell */
+	background-color: #000000 !important; /* TODO reconsider this. It's bound to be breaking stuff. */
+	color: #33FFEE !important;
+	
+	border-color: #197F77 !important;
+}
+
+tr { /* Table row */
+	border-color: #33FFEE !important; /* TODO Fix this. It should be a more appropriate code. */
+}
+
+
+h1 { /* Heading 1 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+h2 { /* Heading 2 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important
+}
+
+h3 { /* Heading 3 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+h4 { /* Heading 4 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+h5 { /* Heading 5 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+h6 { /* Heading 6 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+h7 { /* Heading 7 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+h8 { /* Heading 8 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+h9 { /* Heading 9 */
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+hr { /* Horizontal line  */
+	background-image: none !important;
+	background-color: #33FFEE !important;
+	color: #000000 !important;
+	
+	border-color: #33FFEE !important;
+}
+
+li {
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+
+
+
+select { /* Form elements: select box */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+textarea { /* Form elements: textarea  */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+input { /* Form elements: textarea  */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+	
+	border-color: #33FFEE !important;
+}
+
+body { /* Default stuff. */
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+html { /* Default stuff. */
+	/* This really surprised me, but it's needed for pagerduty, and perhaps other sites. I would have thought that body should have covered this.
+	 */
+	
+	background-image: none !important;
+	background-color: black !important;
+	color: #33FFEE !important;
+}
+
+p {
+	background-image: none !important;
+	background-color: #000000 !important;
+	color: #33FFEE !important;
+}
+
+span {
+	color: #33FFEE !important;
+}
+
+code {
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+blockquote {
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+option {
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+select {
+	background-image: none !important;
+	background-color: #0A332F !important;
+	color: #33FFEE !important;
+}
+
+tt { /* TODO Look this up. I don't know what it is. It's used by the commit link on github */
+	background-color: #197F77 !important;
+	background-image: none !important;
+	color: #33FFEE !important;
+	
+	border-style: none !important;
+}
+
+b { /* TODO See if there is a better way. This is to override the google drop down search results that gray out what you've written. It would be a real shame if this has to stay in. */
+	color: #33FFEE !important;
+}
+
+a { /* link */
+	/* TODO This needs to respect the chosen colour scheme */
+	color: #3366ff !important;
+}
+

@@ -1,10 +1,14 @@
 #!/bin/bash
 
-readmeSources="./README.source.md ./apps/kmail/README.source.md"
+readmeSources="./README.source.md $(ls ./apps/*/README.source.md)"
 
 mkdir -p sheets previews
 
-colouredweb --build=sheets,previews
+if which colouredweb > /dev/null; then
+    colouredweb --build=sheets,previews
+else
+    echo "The colouredweb Achel-based application is not installed on this machine. That's not a big dela for adding support for a new app, but will mean that you can't update the stylesheets, right now. Other than that, everything can function normally. Please mention that you haven't updated the stylesheets in your pull request."
+fi
 
 for readmeSource in $readmeSources; do
     readmeFile="$(echo "$readmeSource" | cut -d\. -f1,2).md"
