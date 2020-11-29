@@ -24,4 +24,3 @@ function makeFullPathAgain
 if [ -e "$placeToLook" ]; then
     findFirefoxProfiles | makeFullPathAgain | addFileName
 fi
-
