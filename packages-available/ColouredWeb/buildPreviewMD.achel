@@ -1,0 +1,32 @@
+# Build the preview section of the README.md file. 
+parameters fileOut,pathPrefix
+
+# Build the preview headings.
+set Local,hexColour,
+retrieveResults ColouredWeb,themeShades
+sortOnKey
+template preview.md-headings
+stashResults Local,headings
+
+# Build the preview heading divider.
+retrieveResults ColouredWeb,themeShades
+sortOnKey
+template preview.md-dividor
+stashResults Local,headingDividor
+
+# Build the main content.
+setNested ColouredWeb,pathPrefix,~!Local,pathPrefix!~
+debug 0,Building ~!Local,fileOut!~.
+retrieveResults ColouredWeb,colours
+sortOnValue
+loop
+	set Local,hexColour,~!Result,line!~
+	retrieveResults ColouredWeb,themeShades
+	sortOnKey
+	template preview.md-line
+	stashResults Result,compiled
+flatten
+
+# Build the combination of everything.
+template preview.md
+singleStringNow ~!Local,fileOut!~
