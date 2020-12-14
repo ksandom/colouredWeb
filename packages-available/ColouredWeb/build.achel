@@ -4,33 +4,9 @@ parameters cssDir,previewDir
 
 collectionLoad ColouredWeb
 
-# Build the preview headings.
-set Local,hexColour,
-retrieveResults ColouredWeb,themeShades
-sortOnKey
-template preview.md-headings
-stashResults Local,headings
-
-# Build the preview heading divider.
-retrieveResults ColouredWeb,themeShades
-sortOnKey
-template preview.md-dividor
-stashResults Local,headingDividor
-
 # Build the preview.
-debug 0,Building preview.md.
-retrieveResults ColouredWeb,colours
-sortOnValue
-loop
-	set Local,hexColour,~!Result,line!~
-	retrieveResults ColouredWeb,themeShades
-	sortOnKey
-	template preview.md-line
-	stashResults Result,compiled
-flatten
-template preview.md
-singleStringNow preview.md
-
+buildPreviewMD previewGlobal.md,.
+buildPreviewMD previewApp.md,../..
 
 
 debug 0,Building sheets.
@@ -53,4 +29,3 @@ loop
 			
 			debug 1,~!Local,hexColour!~ / ~!Local,theme!~
 			buildTheme ~!Local,hexColour!~,~!Local,fileOut!~,~!Local,previewOut!~
-	

@@ -1,8 +1,24 @@
 #!/bin/bash
 
-readmeSources="./README.source.md $(ls ./apps/*/README.source.md)"
+readmeSources="$(ls ./apps/*/README.source.md)"
 
 mkdir -p sheets previews
+
+function buildReadme
+{
+  local readmeSource="$1"
+  local previewSource="$2"
+  
+  readmeFile="$(echo "$readmeSource" | cut -d\. -f1,2).md"
+  
+  echo "Building ${readmeFile}".
+  {
+      echo "<!-- This file has been generated from $0. If you want to edit it, edit \"$readmeSource\" and then run $0 again. -->"
+      cat "$readmeSource"
+      echo
+      cat "$previewSource"
+  } > "${readmeFile}"
+}
 
 if which colouredweb > /dev/null; then
     colouredweb --build=sheets,previews
@@ -10,20 +26,13 @@ else
     echo "The colouredweb Achel-based application is not installed on this machine. That's not a big dela for adding support for a new app, but will mean that you can't update the stylesheets, right now. Other than that, everything can function normally. Please mention that you haven't updated the stylesheets in your pull request."
 fi
 
+buildReadme "./README.source.md" "previewGlobal.md"
 for readmeSource in $readmeSources; do
-    readmeFile="$(echo "$readmeSource" | cut -d\. -f1,2).md"
-    
-    echo "Building ${readmeFile}".
-    {
-        echo "<!-- This file has been generated from $0. If you want to edit it, edit \"$readmeSource\" and then run $0 again. -->"
-        cat "$readmeSource"
-        echo
-        cat "preview.md"
-    } > "${readmeFile}"
+  buildReadme "$readmeSource" "previewApp.md"
 done
 
-for app in apps/*; do
-    echo "Copying sheets to $app".
-    rm -Rf "$app/sheets" "$app/previews"
-    cp -R sheets previews "$app"
-done
+# for app in apps/*; do
+#     echo "Copying sheets to $app".
+#     rm -Rf "$app/sheets" "$app/previews"
+#     cp -R sheets previews "$app"
+# done
