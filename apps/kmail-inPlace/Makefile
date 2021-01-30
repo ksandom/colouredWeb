@@ -5,7 +5,7 @@ uninstall:
 	make uninstall-inplace
 
 install-inplace:
-	./bin/inPlace/installInplace sheets/black1-ffffff.css
+	./bin/inPlace/installInplace ../../sheets/black1-ffffff.css
 
 uninstall-inplace:
 	./bin/inPlace/uninstallInplace
